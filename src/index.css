@@ -9,6 +9,8 @@
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    overflow-x: hidden;
+    overflow-y: scroll;
 
 
     --sec:rgb(218, 230, 241);

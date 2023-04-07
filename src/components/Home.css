@@ -6,10 +6,10 @@
   scroll-snap-type: y mandatory;
 }
 .section{
-    padding: 0 1rem;
+    padding: 0 .5rem;
     width: 100%;
     
-   min-height:calc(100vh - 4.4rem); 
+   min-height:100vh; 
    
     scroll-snap-align: start;
     scroll-snap-stop: always;
@@ -21,27 +21,21 @@
     font-size: 3rem;
   }
 
-  .pg1{
-    min-height: 100vh; 
-    display:flex;
-    flex-wrap: wrap;
-    background-image: url("../assets/bach.jpeg");
-    height: 100%;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-blend-mode: darken;
-    background-position: center; 
+  .pg1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
+    align-items: stretch; /* stretch items to fill container height */
+    grid-auto-rows: minmax(calc(50vh - 1rem),auto); /* set a minimum height for the grid items */
   }
 
   .pg2{
     background-image: url('../assets/naga.webp');
-    height:80%;
+    min-height: 70vh;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     filter: brightness(0.9);
-    background-position: center;
+    background-position:  center;    
   
 }
 
@@ -60,6 +54,14 @@
     /* background-color: blue; */
 }
 
+.pg1 .img {
+  margin: 1rem;
+  background-image: url("../assets/bach.jpeg"); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+  background-position: center; 
+}
 .txt h4{
     padding-top: 1.5rem;
     font-weight: 600;
@@ -81,11 +83,51 @@
 
 .head2{
     font-size: 3rem;
-    margin-top: 3rem;
-    padding-top: 40%;
+color: var(--sec);
+padding-top: 1.5rem;
+padding-bottom: 1.5rem;
+border-top:solid 1px aliceblue ;
+border-bottom:solid 2px aliceblue ;
+  }
+
+
+@media (width <= 1111px){
+
+
+    
+    .pg1 .maintxt{
+      /* align-self: center; */
+      font-size: 4.5em;
+      justify-self: left;
+      padding-left: 0;
+      padding-top: 2rem;
+      letter-spacing: 0;
+      /* background-color: blue; */
+  
+  }
+
+  
+   .txt h4{
+    padding-left: 0rem;
+    padding-top: 1rem;
+   } 
+   .txt p{
+    padding-left: .1rem;
+   }
+
 }
 
+
 @media (width <= 550px){
+
+.pg1{
+  
+    grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
+}
+.head2{
+  padding: 1rem;
+  font-size: 2rem;
+}
 
     h1{
         font-size: 2rem;
@@ -93,16 +135,16 @@
 
     .pg1 .maintxt{
         /* align-self: center; */
-        font-size: 5rem;
+        font-size: 3.75em;
         justify-self: left;
-        padding-left: .1rem;
-        padding-top: 4rem;
+        padding-left: 0;
+        padding-top: 2rem;
         letter-spacing: 0;
         /* background-color: blue; */
     
     }
    .txt h4{
-    padding-left: .1rem;
+    padding-left: 0rem;
     padding-top: 1rem;
    } 
    .txt p{
