@@ -37,6 +37,9 @@ function Home(){
         
         <div className="pg3 section">
 
+
+
+
        <Community channelId={event} api={api} />
        <VideoCarousel playlistId={prep} api={api} title1={'Preperations'}/>
        <VideoCarousel playlistId={list} api={api} title1={'Testimonials'}/>
