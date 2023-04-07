@@ -1,0 +1,25 @@
+.scrollable-container {
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  .post {
+    scroll-snap-align: start;
+    flex-shrink: 0;
+    width: 300px;
+    margin-right: 16px;
+    padding: 16px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .post img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 16px;
+    border-radius: 4px;
+  }
+  
