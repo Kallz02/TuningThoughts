@@ -32,7 +32,7 @@ function Home(){
                </div>
         </div>
         
-            <h1 className='head2'> <center>Indian Flower Remedies - இந்திய மலர் மருத்துவம்</center>  </h1>
+            <h1 className='head2' id='contact'> <center>Indian Flower Remedies - இந்திய மலர் மருத்துவம்</center>  </h1>
         <div className="pg2 section">
             
         </div>
@@ -42,7 +42,7 @@ function Home(){
 
 
 
-       <Community channelId={event} api={api}/>
+       {/* <Community channelId={event} api={api}/> */}
        <VideoCarousel playlistId={prep} api={api} title1={'Preperations'}/>
        <VideoCarousel playlistId={list} api={api} title1={'Testimonials'}/>
         </div>

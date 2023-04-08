@@ -1,33 +1,47 @@
-from flask import Flask, jsonify
-from bs4 import BeautifulSoup
-import requests
+from flask import request,Flask, jsonify
+import instaloader
 
 app = Flask(__name__)
+@app.route('/posts/instagram')
+def get_instagram_posts():
+    # Fetch the Instagram account name from the request parameters
+    account = request.args.get('account')
 
-@app.route('/youtube/<channel_id>')
-def get_youtube_community_posts(channel_id):
-    # send a GET request to the YouTube channel's community tab page
-    url = f'https://www.youtube.com/channel/{channel_id}/community'
-    response = requests.get(url)
+    # Create an Instaloader instance
+    L = instaloader.Instaloader()
 
-    # create a BeautifulSoup object to parse the HTML content of the page
-    soup = BeautifulSoup(response.content, 'html.parser')
+    # Fetch the profile information for the specified account
+    profile = instaloader.Profile.from_username(L.context, account)
 
-    # find all of the community posts on the page
-    post_elements = soup.find_all('div', class_='CtRVGd')
-
-    # create a list of post dictionaries
+    # Create an empty list to store the post data
     posts = []
-    for post_element in post_elements:
-        post_dict = {
-            'id': post_element.get('data-item-id'),
-            'title': post_element.find('h3', class_='pGxqz').text,
-            'body': post_element.find('div', class_='CtRVGd-az-Xb').text.strip(),
-            'timestamp': post_element.find('a', class_='z1asCe').text
-        }
-        posts.append(post_dict)
 
-    # return the posts as JSON data
+    # Iterate through the posts and extract the relevant data
+    for post in profile.get_posts():
+        # Check if the post is a video
+        is_video = post.is_video
+
+        # Get the caption for the post
+        caption = post.caption
+
+        # Check if the caption is None
+        if caption is not None:
+            # Clean up the caption text
+            caption_text = caption.strip().replace('\n', ' ')
+        else:
+            caption_text = None
+
+        # Get the URL for the post's image or video
+        url = post.url
+
+        # Add the post data to the list
+        posts.append({
+            'is_video': is_video,
+            'caption': caption_text,
+            'url': url
+        })
+
+    # Return the post data as a JSON response
     return jsonify(posts)
 if __name__ == '__main__':
     app.run(debug=True)

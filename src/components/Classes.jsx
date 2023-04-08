@@ -1,6 +1,14 @@
+import Header from "./Header";
+
+import './Classes.css'
+
+
 
 const Classes = () => {
-    return <h1>Classes</h1>;
+    return (
+
+    <><Header /><h1>Classes</h1></>
+    );
   };
   
   export default Classes;

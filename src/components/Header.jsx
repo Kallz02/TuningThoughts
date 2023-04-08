@@ -55,7 +55,7 @@ function Header(){
   </svg></Link>
   <div className="contact">
     
-      <Link to="/contact">Contact</Link>
+      <Link to="/#contact">Contact</Link>
 
   </div>
   <label htmlFor="nav-menu">
