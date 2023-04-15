@@ -5,6 +5,7 @@ import About from './components/About';
 import Testimonial from './components/Testimonial';
 import Kit from './components/Kit';
 import Classes from './components/Classes';
+import Event from './components/Event';
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -21,6 +22,7 @@ function App() {
     <Route path='/testimonial' element={<Testimonial/>}/>
   
     <Route path='/kit' element={<Kit/>}/>
+    <Route path='/events' element={<Event/>}/>
     
     <Route path='/classes' element={<Classes/>}/>
 </Routes>

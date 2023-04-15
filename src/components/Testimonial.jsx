@@ -1,6 +1,14 @@
+import Header from "./Header";
+
 
 const Testimonial = () => {
-    return <h1>Testimonial</h1>;
+    return (
+      <>
+      <Header/>
+      <h1>Testimonial</h1>
+      
+      </>
+    );
   };
   
   export default Testimonial;

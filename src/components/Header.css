@@ -35,9 +35,12 @@ header{
 }
 
 .logo{
-  
-    font-size: 2rem;
-    margin-right: auto;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    margin-left:3rem;
+    margin-right: auto; 
+    font-size: 1rem;
     font-weight: 400; 
 }
 
@@ -91,7 +94,7 @@ header{
   transition: all .5s;
   
   border: solid 1px var(--sec);
-	box-shadow: 0.2rem 0.2rem 0 hsl(var(--shadowColor) );
+	/* box-shadow: 0.2rem 0.2rem 0 hsl(var(--shadowColor) ); */
 }
 
 .contact:hover {

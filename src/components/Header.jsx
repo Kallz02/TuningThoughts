@@ -15,7 +15,7 @@ function Header(){
     return(
         <header>
   <div className="logo">
- <img src={logo} alt="" /> 
+ <img src={logo} alt="" /> <p>@TuningThoughts</p>
     </div>
   <input type="checkbox" id="nav-menu" />
   <ul className="nav">
@@ -29,6 +29,9 @@ function Header(){
       <Link to="/testimonial">Testimonials</Link>
     </li>
     <li>
+      <Link to="/Events">Events</Link>
+    </li>
+    <li>
       
       <Link to="/Kit">Kit</Link>
     </li>
@@ -37,7 +40,7 @@ function Header(){
       <Link to="/Classes">Classes</Link>
     </li>
   </ul>
-<Link to=''>
+<Link to='https://www.youtube.com/channel/UCU1U_hqYjzEKjG6txI3OHjQ' target='_blank'>
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={24}
@@ -55,7 +58,7 @@ function Header(){
   </svg></Link>
   <div className="contact">
     
-      <Link to="/#contact">Contact</Link>
+      <Link to="#contact">Contact</Link>
 
   </div>
   <label htmlFor="nav-menu">

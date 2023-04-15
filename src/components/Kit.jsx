@@ -1,6 +1,14 @@
+import Header from "./Header";
+
 
 const Kit = () => {
-    return <h1>Kit</h1>;
+    return (
+      <>
+      <Header/>
+      <h1>Kit</h1>
+      
+      </>
+    );
   };
   
   export default Kit;
