@@ -2,7 +2,7 @@ import React from 'react'
 
 function Naga() {
     return (
-        <div className='min-h-[50vh] flex flex-wrap mt-[1rem]  justify-around  items-center mx-[3rem]  rounded-lg '>
+        <div className='min-h-[50vh] flex flex-wrap mt-[1rem]  justify-around  items-center md:mx-[3rem]  rounded-lg '>
 
 
             <div className="   rounded-lg min-w-[400px] sm:pt-[1rem] font-light dark:text-gray-100  dark:bg-gray-900 bg-gray-100  p-5  md:p-10  leading-6 ">

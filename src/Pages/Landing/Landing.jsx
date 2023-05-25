@@ -13,7 +13,7 @@ function Landing() {
     return (
         <div class=" md:mt-[1.5rem] mx-auto  max-w-[95rem]  px-4 sm:px-6 lg:px-8">
             <div class="grid lg:grid-cols-7   lg:gap-x-8 xl:gap-x-12 ">
-                <div class="lg:col-span-3 lg:mt-[4rem]">
+                <div class="lg:col-span-3 mt-[1rem] lg:mt-[3.5rem]">
                     <h1 class="block text-6xl mt-[1rem] font-medium text-gray-800 sm:text-[4rem] md:text-[4rem] lg:text-[6rem] dark:text-white text-left ">
                         S.S Alternative Medicines
                     </h1>

@@ -16,12 +16,12 @@ function Nav() {
     }, []);
 
     return (
-        <header className="max-w-[95rem] mx-auto px-4 sm:px-6 lg:px-8 backdrop-blur-sm">
+        <header className="max-w-[95rem] mx-auto px-4 sm:px-6 lg:px-8 backdrop-blur-md">
             <div className="logo">
                 <img src="/logo.png" alt="" />
                 <p className='dark:text-gray-100'>TuningThoughts</p>
 
-                <a
+                <Link
                     href="https://www.youtube.com/channel/UCU1U_hqYjzEKjG6txI3OHjQ"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -42,7 +42,7 @@ function Nav() {
                         <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z" />
                         <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" />
                     </svg>
-                </a>
+                </Link>
             </div>
             <input type="checkbox" id="nav-menu" />
             <ul className="nav dark:text-gray-100 dark:bg-[#030712] xl:dark:bg-transparent ">
@@ -69,7 +69,7 @@ function Nav() {
             <Dark />
             <div className="contact">
 
-                <Link to="#contact">Contact</Link>
+                <Link to="https://wa.me/919080276429?text=I%20am%20interested%20to%20know%20more%20about%20classes">Contact</Link>
             </div>
             <label htmlFor="nav-menu">
                 <div className="navmenu">
