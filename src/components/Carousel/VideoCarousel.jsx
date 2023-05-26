@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+import { Link } from "react-router-dom";
 // import "./VideoCarousel.css";
 
 const VideoCarousel = ({ playlistId, api, title1 }) => {
@@ -26,9 +27,9 @@ const VideoCarousel = ({ playlistId, api, title1 }) => {
 
     return (
       <div className="carousel-item w-[320px] mx-3" key={index}>
-        <a
+        <Link
           className="flex flex-col bg-white border shadow-sm rounded-lg hover:shadow-lg transition dark:bg-gray-900 dark:border-gray-700 dark:shadow-slate-700/[.7]"
-          href={videoUrl}
+          to={videoUrl}
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -38,11 +39,11 @@ const VideoCarousel = ({ playlistId, api, title1 }) => {
             alt={video.snippet.title}
           />
           <div className="p-2 md:p-4">
-            <h3 className="text-sm text-gray-800 font-semibold dark:text-white">
+            <h3 className="text-sm text-gray-800 font-normal dark:text-white">
               {video.snippet.title}
             </h3>
           </div>
-        </a>
+        </Link>
       </div>
     );
   };

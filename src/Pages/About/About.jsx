@@ -1,6 +1,8 @@
 // import Header from "./Header";
 // import './About.css'
 
+// import PhotoCarousel from "../../components/Carousel/PhotoCarousel";
+
 const About = () => {
    return (
 
@@ -22,7 +24,9 @@ const About = () => {
                He is also an alternative medicines mentor and has taught over 3000+ students
                for their Self-Healing Purpose. He also runs a YouTube Channel named “ Tuning
                Thoughts “ , where several viewers and Subscribers Learn.</p>
-            My photos scrolling here
+
+            {/* <PhotoCarousel folderName={"myphoto"} /> */}
+
             <h1 className="dark:text-gray-100 font-light" > <center> S.S Alternative Medicines </center> </h1>
             <p>It is an<b> ISO 9001:2015 Certified Company with Good Manufacturing Practices
                ( GMP ) Certification</b>.

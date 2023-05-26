@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 function Footer() {
     return (
         <footer aria-label="Site Footer" class="bg-gray-100  dark:bg-gray-900 mt-[2rem]">
-            <div class="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
+            <div class="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8 text-center">
                 <div className="flex items-center justify-center">
                     <img className='h-12' src="/logo.png" alt="" />
                     <p class=" text-center leading-relaxed text-[1.25rem] text-gray-800 dark:text-gray-400">
@@ -122,6 +122,10 @@ function Footer() {
                     </li>
 
                 </ul>
+
+            </div>
+            <div className="text-center pb-3 underline">
+                <Link to="https://akshayk.dev/" target='_blank' className='mx-auto text-blue-500 mt-5'>Created By Akshay</Link>
             </div>
         </footer>
 

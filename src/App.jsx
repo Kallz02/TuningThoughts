@@ -8,6 +8,8 @@ import Footer from './components/Footer/Footer';
 import About from './Pages/About/About';
 import Kit from './Pages/Kit/Kit';
 import Testimonial from './Pages/Testimonials/Testimonial';
+import Events from './Pages/Events/Events'
+import Classes from './Pages/Classes/Classes';
 
 function App() {
   useEffect(() => {
@@ -26,9 +28,9 @@ function App() {
           <Route path='/testimonial' element={<Testimonial />} />
 
           <Route path='/kit' element={<Kit />} />
-          {/* <Route path='/events' element={<Event/>}/> */}
+          <Route path='/events' element={<Events />} />
 
-          {/* <Route path='/classes' element={<Classes/>}/> */}
+          <Route path='/classes' element={<Classes />} />
         </Routes>
         <Footer />
       </BrowserRouter>
