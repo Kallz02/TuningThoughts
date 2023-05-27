@@ -8,7 +8,7 @@ function Events() {
             <div className='prose prose-li:list-decimal max-w-[75rem] mx-[1.5rem]'>
                 <h1 className="font-normal text-[2.5rem] md:text-[3.5rem] dark:text-gray-200">Events</h1>
                 <p className="dark:text-gray-200 mx-[1rem]">
-                    <h3 className='dark:text-gray-200 font-normal'>  Direct Consultation available on our different branches all over India.
+                    <h3 className='dark:text-gray-200 font-normal text-center'>  Direct Consultation available on our different branches all over India.
                     </h3>
                     <Cards />
                     <br />
