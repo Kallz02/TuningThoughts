@@ -99,7 +99,7 @@ function Kit() {
                     <img src="/p5.jpeg" className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
                 </div>
 
-                <div className="section flex flex-wrap">
+                {/* <div className="section flex flex-wrap">
                     <div className="content mx-auto">
                         <h1 className='font-normal'>HEIGHT INCREASE</h1>
                         <p className="font-medium">This Kit will be greatly useful for Increase of height  in children. <br /> This can able to handle</p>
@@ -110,7 +110,7 @@ function Kit() {
                     </div>
 
                     <img src="/p6.jpeg" className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
-                </div>
+                </div> */}
 
                 <div className="section flex flex-wrap">
                     <div className="content mx-auto">
@@ -124,7 +124,10 @@ function Kit() {
                 <div className="section flex flex-wrap">
                     <div className="content mx-auto">
                         <h1 className='font-normal'>KIDNEY CARE</h1>
-                        <p className="font-medium">This Kit will be greatly useful for all types of Kidney Related issues and are able to regenerate the cells. This can handle variety of factors that damage the Kidney, such as Urinary tract issues and inflammation in different parts of the kidney can also lead to long-term functional decline.</p>
+                        <p className="font-medium">This Kit will be greatly useful for all types of Kidney Related
+                            issues <br /> and are able to regenerate the cells. This can handle variety <br />
+                            of factors that damage the Kidney, such as Urinary tract issues <br /> and inflammation
+                            in different parts of the kidney can also lead to <br />long-term functional decline.</p>
                     </div>
 
                     <img src="/p8.jpeg" className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
@@ -133,7 +136,10 @@ function Kit() {
                 <div className="section flex flex-wrap">
                     <div className="content mx-auto">
                         <h1 className='font-normal'>BRAIN BOOSTER</h1>
-                        <p className="font-medium">This Kit will be greatly useful for all types of Brain Related issues and are able to increase neuron connectivity and increase memory power. This can able to handle Autism, Epilepsy, Parkinson’s, Alzheimer's disease and other issues</p>
+                        <p className="font-medium">This Kit will be greatly useful for all types of Brain Related issues and <br />
+                            are able to increase neuron connectivity and increase memory power. <br />
+                            This can able to handle Autism, Epilepsy, Parkinson’s, Alzheimer's <br />
+                            disease and other issues</p>
                     </div>
 
                     <img src="/p9.jpeg" className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
@@ -157,7 +163,7 @@ function Kit() {
 
                 </div>
 
-                <div className="section flex flex-wrap">
+                {/* <div className="section flex flex-wrap">
                     <div className="content mx-auto">
                         <h1 className='font-normal'>STOMACH CARE</h1>
                         <p className="font-medium">This Kit will be greatly useful for all types of stomach-related issues such as</p>
@@ -176,7 +182,7 @@ function Kit() {
 
                     <img src="/p11.jpeg" className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
 
-                </div>
+                </div> */}
 
                 <div className="section flex flex-wrap">
                     <div className="content mx-auto">
@@ -205,7 +211,7 @@ function Kit() {
                     <img src="/p13.jpeg" className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
                 </div>
 
-                <div className="section flex flex-wrap">
+                {/* <div className="section flex flex-wrap">
                     <div className="content mx-auto">
                         <h1 className='font-normal'>BONE CARE</h1>
                         <p className="font-medium">This Kit will be greatly useful for all types of Bone-related issues such as</p>
@@ -222,7 +228,7 @@ function Kit() {
                     </div>
 
                     <img src="/p14.jpeg" className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
-                </div>
+                </div> */}
 
                 <div className="section flex flex-wrap">
                     <div className="content mx-auto">

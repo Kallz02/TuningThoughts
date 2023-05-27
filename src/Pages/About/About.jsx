@@ -9,7 +9,7 @@ const About = () => {
 
 
       <>
-         <div className="prose mt-[1rem] mx-auto flex flex-col items-center dark:text-gray-200 px-6 max-w-[80rem]">
+         <div className="prose mt-[1rem] prose-li:list-decimal mx-auto flex flex-col items-center dark:text-gray-200 px-6 max-w-[80rem] overflow-x-clip">
 
             <h1 className="dark:text-gray-100 font-light text-[2.5rem] md:text-[3.5rem] "><center>About</center></h1>
 
@@ -46,20 +46,11 @@ const About = () => {
             <p>Saantham Trust is a Registered Trust Running in Gudiyatham for the benefits of the
                Public. We Voice for Flower remedies and Alternative Medicines Miracles and
                benefits. We also help people who are in need for medical aid and promote
-               Natural Medicines.</p><p>
-               YouTube : Tuning Thoughts
-               Our Channel Link
-               SUPREME COURT JUDGMENT
-               No Harassment To Alternative Medical Practitioners, Hon'ble Supreme
-               Court Of India
-               Latest contents of judgment of Hon'be Supreme court of India SLP (Civil) No. 11262/
-               24/11/2000 (In the judgment and order date 18/11/1998 in F.A.Q. No.205/92)
-               For want of certain clarification etc. Delhi govt. & union of India (ministry of health & family welfare)
-               has filled an appeal (SLP) in the Hon'ble supreme court of india challenging the order of Hon'ble
-               Delhi high court dated 18/11/1998upon hearing on 12/11/2000. The division bench of Hon'bleOur Trust is a Registered Trust Running in Gudiyatham for the benefits of the
-               Public. We Voice for Flower remedies and Alternative Medicines Miracles and
-               benefits. We also help people who are in need for medical aid and promote
                Natural Medicines.</p>
+
+
+
+
             <div className=" flex items-center gap-4">
                <p className='dark:text-gray-100'>Youtube : TuningThoughts</p>
 
@@ -88,7 +79,7 @@ const About = () => {
                   </svg>
                </Link>
             </div>
-            <h1 className="dark:text-gray-100 font-light"> <center> SUPREME COURT JUDGMENT</center> </h1>
+            <h1 className="dark:text-gray-100 font-light mt-6"> <center> SUPREME COURT JUDGMENT</center> </h1>
 
             <p> No Harassment To Alternative Medical Practitioners, Hon'ble Supreme
                Court Of India
@@ -104,74 +95,101 @@ const About = () => {
                status quo of Hon'ble Delhi high court (FAO205/92) dated 18/11/1998 by which it has been ordered
                that any legally constituted institution imparting education facilities in the field of Alternative
                medicines may issue diploma / certificate and holder of such diploma / certificate are entitled to
-               practice the particular faculties covered by the said diploma / certificate.
-               1. According to the judgment of high court Chennai, planning commission report & the latter of
-               govt. (No.110/8/4/77MPT/ME(P)1979&No.4-6/70 MPT of govt. of India) The RMP certificate holder
-               can practice in alternative medicine only he can't practice in surgery , obstetrics & radiation therapy
-               in any form. He can not prescribed any medicine includes G,H&L of drugs & cosmetics rules 1945
-               and other dangers drug at any cost.
-            </p>
-            <p>
-               LEGAL GROUNDS
-               SOME LEGAL DECLARATION AND VARIOUS COURT'S ORDERS IN FAVOR OF
-               ALTERNATIVE SYSTEM OF MEDICINE
-               1. THE HON'BLE HIGH COURT OF KARNATAKA :
-               In its final judgment write petitions no.17534-96/94 and no 36960 /94 noted the constitutional
-               validity of section 16(2) 16(2A) etc in order to develop propagate and promote any alternative
-               system of medicines no permission is required under any statute
-               2. THE HON'BLE HIGH COURT OF DELHI :
-               Stated in its Judgment dt. 18/11/1998 of CWP No. 4015/1996 & OM No.8468/ 1997 in which the
-               Government has to take proper action to regularize and recognize the alternative medicine in India.
-               3. THE HON'BLE HIGH COURT OF CALCUTTA :
-               In its final judgment constitution writ jurisdiction matter no 546 of 1988 dt. 07/05/1990 which has
-               been reported in Calcutta Law Journal 1991 (2) CLJ page No. 173 to 187 held the following
-               important points regarding the constitutional rights and legal validity of Alternative system of
-               Medicines in India.
-            </p>
-            <p>
-               4. THE HON'BLE SUPREME COURT OF INDIA :
-               Stated in its final judgment of a case on alternative system of Medicine that “the judgment of Hon'
-               ble High court of Delhi must be strictly followed by the Govt. of India within Eight weeks” to
-               regularise the alternative system of Medicines .
-               Union of india and Delhi Govt. fild by a SLP(civil) No. 11262/2000 against the judgement and order
-               by Delhi high court CWP No. 4015/1996 dated 18/11/1998 in FAQ 205/92. The supreme court has
-               dismissed the SLP Of Union of India and delhi Govt. Dated 24/11/2000.
-               5. 05-05-2010 Electro Homoeopathy is governed vide no.25011/276/2009-HR dated 5th
-               6. 02-05-2008 Supreme Court recognized the practice. Maharashtra directorate Health. may 2010
-               7. 23-04-2008 Vijyanagaram Addi Judi Court Magistrate Recognized the BEMS Practice and kept
-               it with in settled law.
-               8. 22-12-2006 Hon'ble Bombay High court recognized the Electro Homoeopathy Practice.
-               9. 10-01-2005 Metropolitan session court, Sec-bad Recognized MD (EH) Practice and Electro
-               Homoeopathy Board also.
-               10. 25-11-2003 Central Govt. of India, Ministry of Health & Family Welfare, and Department of
-               Health Research recognized Electro homoeopathy.
-               11. 14-02-2003 Hon'ble Supreme court of India and Medical Council of India have declared that,
-               those who are having community Medical Service & ED Certificate (CMS) of Rural medical
-               practitioner (RMP) can do Practice on 42 drug groups of life saving drugs in Allopathy.
-               12. 16-05-2001 Hon'ble Metropolitan session court Sec-bad Recognized the Electro homoeopathy
-               Practice. The court also ordered that “Any Medical council, centre in India has no right to interfere
-               in the Practice.
-               13. 23-10-2000 XI Metropolitan court, Sec-bad recognized the Practice of Electro Homoeopathy &
-               relevant medical college also.
-            </p><p>
-               14. THE ORDER ISSUED BY GOVT. OF INDIA (MINISTRY OF H&FW) DEPARTMENT OF
-               HEALTH RESEARCH NO. V.25011/276/2009-HR Dated.05.05.2010&C.30011/22/2010-HR
-               Dated 21.06.2011.
-            </p>
-            <p>
-               15. To give the rights of practicing to registered Medical Practitioners enrolled by the council as
-               qualified physicians, without any restriction, and entitling them to issue medical certificates such
-               as sickness, fitness etc of any other certificate required by any law. To establish the faculty to
-               control the examinations of teaching and educational institutions or colleges etc; and to award
-               degrees, diplomas, Certificates etc., thereof.
-            </p><p>
+               practice the particular faculties covered by the said diploma / certificate
+               <ol>
+                  <li>
 
-               It is fact that many states including Tamilnadu have implemented clinical establishment Act. 2010.
-               All states are giving honour and weight age to the order of Central Govt. dated 14/02/2011 with
-               regard to education and practice of Electro Homoeopathy. On the suggestion and mutual
-               consultation of Ministry of Health & Family Welfare Govt. of India. Hon'ble Supreme Court of India
-               has also passed order on 22/01/2015 that there is no ban on medical practice of Electro
-               Homoeopathy.
+                     According to the judgment of high court Chennai, planning commission report & the latter of
+                     govt. (No.110/8/4/77MPT/ME(P)1979&No.4-6/70 MPT of govt. of India) The RMP certificate holder
+                     can practice in alternative medicine only he can't practice in surgery , obstetrics & radiation therapy
+                     in any form. He can not prescribed any medicine includes G,H&L of drugs & cosmetics rules 1945
+                     and other dangers drug at any cost.
+                  </li>
+               </ol>
+            </p>
+            <p>
+               <h3 className="dark:text-gray-300 text-center font-normal">  LEGAL GROUNDS
+                  SOME LEGAL DECLARATION AND VARIOUS COURT'S ORDERS IN FAVOR OF
+                  ALTERNATIVE SYSTEM OF MEDICINE
+               </h3>
+
+               <ol>
+                  <li>  THE HON'BLE HIGH COURT OF KARNATAKA :
+                     In its final judgment write petitions no.17534-96/94 and no 36960 /94 noted the constitutional
+                     validity of section 16(2) 16(2A) etc in order to develop propagate and promote any alternative
+                     system of medicines no permission is required under any statute
+                  </li><li>
+                     THE HON'BLE HIGH COURT OF DELHI :
+                     Stated in its Judgment dt. 18/11/1998 of CWP No. 4015/1996 & OM No.8468/ 1997 in which the
+                     Government has to take proper action to regularize and recognize the alternative medicine in India.
+                  </li><li>
+
+                     THE HON'BLE HIGH COURT OF CALCUTTA :
+                     In its final judgment constitution writ jurisdiction matter no 546 of 1988 dt. 07/05/1990 which has
+                     been reported in Calcutta Law Journal 1991 (2) CLJ page No. 173 to 187 held the following
+                     important points regarding the constitutional rights and legal validity of Alternative system of
+                     Medicines in India.
+
+                  </li><li>
+                     THE HON'BLE SUPREME COURT OF INDIA :
+                     Stated in its final judgment of a case on alternative system of Medicine that “the judgment of Hon'
+                     ble High court of Delhi must be strictly followed by the Govt. of India within Eight weeks” to
+                     regularise the alternative system of Medicines .
+                     Union of india and Delhi Govt. fild by a SLP(civil) No. 11262/2000 against the judgement and order
+                     by Delhi high court CWP No. 4015/1996 dated 18/11/1998 in FAQ 205/92. The supreme court has
+                     dismissed the SLP Of Union of India and delhi Govt. Dated 24/11/2000.
+                  </li><li>
+                     05-05-2010 Electro Homoeopathy is governed vide no.25011/276/2009-HR dated 5th
+                  </li><li>
+                     02-05-2008 Supreme Court recognized the practice. Maharashtra directorate Health. may 2010
+                  </li><li>
+                     23-04-2008 Vijyanagaram Addi Judi Court Magistrate Recognized the BEMS Practice and kept
+                     it with in settled law.
+                  </li><li>
+                     22-12-2006 Hon'ble Bombay High court recognized the Electro Homoeopathy Practice.
+                  </li><li>
+
+                     10-01-2005 Metropolitan session court, Sec-bad Recognized MD (EH) Practice and Electro
+                     Homoeopathy Board also.
+                  </li><li>
+                     25-11-2003 Central Govt. of India, Ministry of Health & Family Welfare, and Department of
+                     Health Research recognized Electro homoeopathy.
+                  </li><li>
+                     14-02-2003 Hon'ble Supreme court of India and Medical Council of India have declared that,
+                     those who are having community Medical Service & ED Certificate (CMS) of Rural medical
+                     practitioner (RMP) can do Practice on 42 drug groups of life saving drugs in Allopathy.
+                  </li><li>
+
+                     16-05-2001 Hon'ble Metropolitan session court Sec-bad Recognized the Electro homoeopathy
+                     Practice. The court also ordered that “Any Medical council, centre in India has no right to interfere
+                     in the Practice.
+                  </li><li>
+                     23-10-2000 XI Metropolitan court, Sec-bad recognized the Practice of Electro Homoeopathy &
+                     relevant medical college also.
+
+                  </li><li>
+                     THE ORDER ISSUED BY GOVT. OF INDIA (MINISTRY OF H&FW) DEPARTMENT OF
+                     HEALTH RESEARCH NO. V.25011/276/2009-HR Dated.05.05.2010&C.30011/22/2010-HR
+                     Dated 21.06.2011.
+                  </li>
+                  <li>
+                     15. To give the rights of practicing to registered Medical Practitioners enrolled by the council as
+                     qualified physicians, without any restriction, and entitling them to issue medical certificates such
+                     as sickness, fitness etc of any other certificate required by any law. To establish the faculty to
+                     control the examinations of teaching and educational institutions or colleges etc; and to award
+                     degrees, diplomas, Certificates etc., thereof.
+
+
+
+                     It is fact that many states including Tamilnadu have implemented clinical establishment Act. 2010.
+                     All states are giving honour and weight age to the order of Central Govt. dated 14/02/2011 with
+                     regard to education and practice of Electro Homoeopathy. On the suggestion and mutual
+                     consultation of Ministry of Health & Family Welfare Govt. of India. Hon'ble Supreme Court of India
+                     has also passed order on 22/01/2015 that there is no ban on medical practice of Electro
+                     Homoeopathy.
+                  </li>
+               </ol>
+
             </p>
             <p>
                Ministry of Health & Family Welfare Govt. of India has already clarified on 14/02/2011 that Electro

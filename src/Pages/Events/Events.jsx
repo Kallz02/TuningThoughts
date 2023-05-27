@@ -7,12 +7,12 @@ function Events() {
         <div className='flex flex-col items-center justify-center'>
             <div className='prose prose-li:list-decimal max-w-[75rem] mx-[1.5rem]'>
                 <h1 className="font-normal text-[2.5rem] md:text-[3.5rem] dark:text-gray-200">Events</h1>
-                <p className="dark:text-gray-200 text-center">
+                <p className="dark:text-gray-200 mx-[1rem]">
                     <h3 className='dark:text-gray-200 font-normal'>  Direct Consultation available on our different branches all over India.
                     </h3>
                     <Cards />
                     <br />
-                    <ol className='text-[1.2rem]'>
+                    <ol className='text-[1.2rem] text-center'>
                         <li>Gudiyatham - Vellore</li>
                         <li>Chennai</li>
                         <li>Bangalore</li>
@@ -20,19 +20,21 @@ function Events() {
                         <li>Coimbatore</li>
                     </ol>
                     <br />
-                    Both online and offline Consultation available for 365 days dedicated to our people.
-                    <br />
+                    <p className='text-center'>
+                        Both online and offline Consultation available for 365 days dedicated to our people.
+                    </p>
+
                     <br />
                     <h1 className="font-normal dark:text-gray-200">Education and Registration</h1>
-                    <p className="dark:text-gray-200 text-center">
-                        Proper Education is provided for Healers with Guidelines of Alternative Medicine Association, and registration is given for them for their practice after conducting exams.
-                        <br />
-                        For Registration and other details,
-                        <p className='font-bold'> WhatsApp Office: +91 8838793089 </p>
+                    <p className="dark:text-gray-200 ">
+                        <p className='text-center'> Proper Education is provided for Healers with Guidelines of Alternative Medicine Association, and registration is given for them for their practice after conducting exams.
+                            <br />
+                            For Registration and other details, </p>
+                        <p className='font-bold text-center'> WhatsApp Office: +91 8838793089 </p>
                         <br />
                         <br />
                         <h1 className="font-normal dark:text-gray-200">Benefits Of Registering</h1>
-                        <ol className='list-decimal'>
+                        <ol className='list-decimal text-center'>
                             <li>Free Alternative medical camp</li>
                             <li>Guiding Higher Educations</li>
                             <li>Update information about Alternative medicines</li>

@@ -54,6 +54,7 @@ const VideoCarousel = ({ playlistId, api, title1 }) => {
 
       <h1 className="carousel-heading text-3xl md:text-5xl my-5 dark:text-gray-100">
         <center>{title1}</center>
+        <p className="text-center text-sm">Swipe &#62;&#62;</p>
       </h1>
       <div className="video-carousel-container mt-5 flex  overflow-x-auto  max-w-[95rem] mx-auto">
         <div className="carousel-wrapper mt-5">

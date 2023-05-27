@@ -2,12 +2,21 @@ import React from 'react'
 import Naga from './components/Naga'
 import VideoCarousel from '../../components/Carousel/VideoCarousel';
 
+
 function Landing() {
 
     const api = "AIzaSyB_pYZDfI8BSGYAsFH-vQ3hwUhvIcFDO6A";
+
     const list = "PLJ6oyZmMA3ZYfYFrFTlQC-Jy17alfXBi6";
     const prep = "PLJ6oyZmMA3ZbROcZa1SpWPXfjhuCBEdfQ";
     const event = "UCU1U_hqYjzEKjG6txI3OHjQ";
+
+    const mem = "PLJ6oyZmMA3ZZQ-kxrMT9DyvxXKtDF6BEy"
+    const bach = "PLJ6oyZmMA3ZYPCEdVubx47J0ffb1dTiTx"
+
+
+
+
 
 
     return (
