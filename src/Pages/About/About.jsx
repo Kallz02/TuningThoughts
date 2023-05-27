@@ -1,7 +1,8 @@
 // import Header from "./Header";
 // import './About.css'
+import { Link } from "react-router-dom";
 
-// import PhotoCarousel from "../../components/Carousel/PhotoCarousel";
+import PhotoCarousel from "../../components/Carousel/PhotoCarousel";
 
 const About = () => {
    return (
@@ -25,9 +26,9 @@ const About = () => {
                for their Self-Healing Purpose. He also runs a YouTube Channel named “ Tuning
                Thoughts “ , where several viewers and Subscribers Learn.</p>
 
-            {/* <PhotoCarousel folderName={"myphoto"} /> */}
+            <PhotoCarousel folderName={"myphoto"} />
 
-            <h1 className="dark:text-gray-100 font-light" > <center> S.S Alternative Medicines </center> </h1>
+            <h1 className="dark:text-gray-100 font-light mt-10" > <center> S.S Alternative Medicines </center> </h1>
             <p>It is an<b> ISO 9001:2015 Certified Company with Good Manufacturing Practices
                ( GMP ) Certification</b>.
                It has also got MSME Certification and UDYAM Registration for Manufacture of
@@ -59,11 +60,34 @@ const About = () => {
                Public. We Voice for Flower remedies and Alternative Medicines Miracles and
                benefits. We also help people who are in need for medical aid and promote
                Natural Medicines.</p>
-            <p>
-               YouTube : Tuning Thoughts
-               Our Channel Link
-            </p>
+            <div className=" flex items-center gap-4">
+               <p className='dark:text-gray-100'>Youtube : TuningThoughts</p>
 
+
+
+               <Link
+                  href="https://www.youtube.com/channel/UCU1U_hqYjzEKjG6txI3OHjQ"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className=''
+               >
+                  <svg
+                     xmlns="http://www.w3.org/2000/svg"
+                     width={24}
+                     height={24}
+                     viewBox="0 0 24 24"
+                     fill="none"
+                     stroke="currentColor"
+                     strokeWidth={2}
+                     strokeLinecap="round"
+                     strokeLinejoin="round"
+                     className="feather feather-youtube dark:fill-gray-100"
+                  >
+                     <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z" />
+                     <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" />
+                  </svg>
+               </Link>
+            </div>
             <h1 className="dark:text-gray-100 font-light"> <center> SUPREME COURT JUDGMENT</center> </h1>
 
             <p> No Harassment To Alternative Medical Practitioners, Hon'ble Supreme
