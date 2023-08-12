@@ -35,7 +35,7 @@ function Landing() {
                     </p>
 
                     <p class="mt-4 text-xl text-gray-800  dark:text-gray-400">
-                        ந ோயோளிக்கு சிகிச்சசயளிக்கவும், ந ோய்களுக்கு அல்ல
+                    நோயாளிகளுக்கு சிகிச்சையளிக்கவும், நோய்களுக்கு அல்ல
                     </p>
 
                     <p class="mt-1 text-lg text-gray-800 font-light dark:text-gray-400">
