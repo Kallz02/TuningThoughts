@@ -3,6 +3,7 @@
 import { Link } from "react-router-dom";
 
 import PhotoCarousel from "../../components/Carousel/PhotoCarousel";
+import PhotoCarousel2 from "../../components/Carousel/PhotoCarousel2";
 
 const About = () => {
    return (
@@ -28,7 +29,9 @@ const About = () => {
 
             <PhotoCarousel folderName={"myphoto"} />
 
+
             <h1 className="dark:text-gray-100 font-light mt-10" > <center> S.S Alternative Medicines </center> </h1>
+            <PhotoCarousel2 folderName={"accreditation"} />
             <p>It is an<b> ISO 9001:2015 Certified Company with Good Manufacturing Practices
                ( GMP ) Certification</b>.
                It has also got MSME Certification and UDYAM Registration for Manufacture of
