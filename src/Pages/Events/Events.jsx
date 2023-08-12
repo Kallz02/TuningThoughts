@@ -16,7 +16,7 @@ function Events() {
                         <li>Gudiyatham - Vellore</li>
                         <li>Chennai</li>
                         <li>Bangalore</li>
-                        <li>Salem</li>
+                        <li>Thiruvanamalai</li>
                         <li>Coimbatore</li>
                     </ol>
                     <br />
