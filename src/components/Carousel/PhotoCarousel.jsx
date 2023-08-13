@@ -1,9 +1,5 @@
 
 const PhotoCarousel = () => {
-
-
-
-
     return (
         <>
             <div className="photo-carousel-container overflow-x-auto mt-5 flex max-w-[75rem] mx-auto ">

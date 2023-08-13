@@ -14,11 +14,6 @@ function Landing() {
     const mem = "PLJ6oyZmMA3ZZQ-kxrMT9DyvxXKtDF6BEy"
     const bach = "PLJ6oyZmMA3ZYPCEdVubx47J0ffb1dTiTx"
 
-
-
-
-
-
     return (
         <div class=" md:mt-[1.5rem] mx-auto  max-w-[95rem]  px-4 sm:px-6 lg:px-8">
             <div class="grid lg:grid-cols-7   lg:gap-x-8 xl:gap-x-12 ">

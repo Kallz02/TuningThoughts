@@ -64,6 +64,9 @@ function Nav() {
                 <li>
                     <Link to="/Classes">Classes</Link>
                 </li>
+                <li>
+                    <Link to="/Feedback">Feedback</Link>
+                </li>
             </ul>
 
             <Dark />
