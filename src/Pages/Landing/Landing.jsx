@@ -34,14 +34,35 @@ function Landing() {
                     </p>
 
                     <p class="mt-1 text-lg text-gray-800 font-light dark:text-gray-400">
-                        எட்வர்ட் போச்
+                        எட்வர்ட் பாக்
+
                     </p>
                 </div>
 
                 <div class="lg:col-span-4 mt-10 lg:mt-0">
-                    <img class="w-full rounded-xl border-2 border-black" src="/bach.jpeg" alt="Image Description" />
+                    <img class="w-full rounded-xl border-2 border-black" src="/bach.jpg" alt="Image Description" />
+                </div>
+
+                
+                
+            </div>
+
+            <div class= "flex justify-center items-center">
+                <div class="w-9/12 mt-10 ">
+                <iframe class="w-full h-[38rem] rounded-lg" src="https://www.youtube-nocookie.com/embed/j9UamLhNLUQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
             </div>
+
+            {/* <div class="lg:col-span-4 mt-10 lg:mt-10 flex justify-center items-center">
+                <img class=" w-42 rounded-xl border-2 border-black" src="/behindwoods.jpg" alt="Centered Image"/>
+            </div> */}
+
+            {/* <div class="aspect-w-16 aspect-h-9">
+            <iframe class="rounded lg" width="560" height="315" src="https://www.youtube-nocookie.com/embed/j9UamLhNLUQ" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div> */}
+
+            
+            
             <Naga />
             <VideoCarousel playlistId={prep} api={api} title1={"Preperations"} />
             <VideoCarousel playlistId={list} api={api} title1={"Testimonials"} />
