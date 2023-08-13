@@ -34,9 +34,8 @@ const About = () => {
             <PhotoCarousel2 folderName={"accreditation"} />
             <p>It is an<b> ISO 9001:2015 Certified Company with Good Manufacturing Practices
                ( GMP ) Certification</b>.
-               It has also got MSME Certification and UDYAM Registration for Manufacture of
+               It has also got MSME Certification , <b>FDA Certified facility</b>, UDYAM Registration for Manufacture of
                Pharmaceuticals, medicinal chemicals and botanical products.
-               Our Products has also for FSSAI Certification and has many other registrations.
                Our Company does Research and Development on Flower remedies and
                Alternative Medicines with Manufacture and sales of Flower remedies and
                Alternative Medicines.
