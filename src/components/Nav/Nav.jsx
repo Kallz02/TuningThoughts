@@ -53,29 +53,6 @@ function Nav() {
                 </Link>
             </div>
             <input type="checkbox" id="nav-menu" />
-            {/* <ul className="nav dark:text-gray-100 dark:bg-[#030712] xl:dark:bg-transparent ">
-                <li>
-                    <Link to="/">Home</Link>
-                </li>
-                <li>
-                    <Link to="/about">About</Link>
-                </li>
-                <li>
-                    <Link to="/testimonial">Testimonials</Link>
-                </li>
-                <li>
-                    <Link to="/Events">Events</Link>
-                </li>
-                <li>
-                    <Link to="/Kit">Kit</Link>
-                </li>
-                <li>
-                    <Link to="/Classes">Classes</Link>
-                </li>
-                <li>
-                    <Link to="/Feedback">Feedback</Link>
-                </li>
-            </ul> */}
             
             <ul className="nav flex space-x-4 dark:text-gray-100 dark:bg-[#030712] xl:dark:bg-transparent ">
 
