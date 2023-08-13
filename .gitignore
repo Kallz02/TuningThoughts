@@ -31,3 +31,4 @@ dist-ssr
 /TuningBack/node_modules
 /TuningBack/.env
 /TuningBack/dist
+temp
