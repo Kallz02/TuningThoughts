@@ -1,0 +1,4 @@
+ol > li{
+    list-style-type: lower-alpha;
+    list-style-position: inside;
+}

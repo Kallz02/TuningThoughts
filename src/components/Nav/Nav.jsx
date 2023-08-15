@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Nav.css';
 import Dark from './Dark';
@@ -15,11 +16,18 @@ function Nav() {
         });
     }, []);
 
+    const [activeLink, setActiveLink] = useState('home');
+
+    const handleLinkClick = (link) => {
+        setActiveLink(link);
+    };
+
     return (
         <header className="max-w-[95rem] mx-auto px-4 sm:px-6 lg:px-8 backdrop-blur-md">
             <div className="logo">
                 <img src="/logo.png" alt="" />
-                <p className='dark:text-gray-100'>TuningThoughts</p>
+
+                <p className='dark:text-gray-100 sm:text-xl md:text-2xl lg:text-3xl'>Tuning Thoughts</p>
 
                 <Link
                     href="https://www.youtube.com/channel/UCU1U_hqYjzEKjG6txI3OHjQ"
@@ -29,8 +37,8 @@ function Nav() {
                 >
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        width={24}
-                        height={24}
+                        width={44}
+                        height={44}
                         viewBox="0 0 24 24"
                         fill="none"
                         stroke="currentColor"
@@ -45,32 +53,54 @@ function Nav() {
                 </Link>
             </div>
             <input type="checkbox" id="nav-menu" />
-            <ul className="nav dark:text-gray-100 dark:bg-[#030712] xl:dark:bg-transparent ">
+            
+            <ul className="nav flex space-x-4 dark:text-gray-100 dark:bg-[#030712] xl:dark:bg-transparent ">
+
                 <li>
-                    <Link to="/">Home</Link>
+                    <NavLink link="/" activeLink={activeLink} onClick={handleLinkClick}>
+                        Home
+                    </NavLink>
                 </li>
+
                 <li>
-                    <Link to="/about">About</Link>
+                    <NavLink link="/about" activeLink={activeLink} onClick={handleLinkClick}>
+                        About
+                    </NavLink>
                 </li>
+
                 <li>
-                    <Link to="/testimonial">Testimonials</Link>
+                    <NavLink link="/testimonial" activeLink={activeLink} onClick={handleLinkClick}>
+                        Testimonials
+                    </NavLink>
                 </li>
+
                 <li>
-                    <Link to="/Events">Events</Link>
+                    <NavLink link="/events" activeLink={activeLink} onClick={handleLinkClick}>
+                        Events
+                    </NavLink>
                 </li>
+
                 <li>
-                    <Link to="/Kit">Kit</Link>
+                    <NavLink link="/kit" activeLink={activeLink} onClick={handleLinkClick}>
+                        Kit
+                    </NavLink>
                 </li>
+
                 <li>
-                    <Link to="/Classes">Classes</Link>
+                    <NavLink link="/classes" activeLink={activeLink} onClick={handleLinkClick}>
+                        Classes
+                    </NavLink>
                 </li>
+
                 <li>
-                    <Link to="/Feedback">Feedback</Link>
+                    <NavLink link="/feedback" activeLink={activeLink} onClick={handleLinkClick}>
+                        Feedback
+                    </NavLink>
                 </li>
             </ul>
 
             <Dark />
-            <div className="contact">
+            <div className="cta font-bold cta px-5 py-2 mr-[0.5em] contact rounded-xl bg-[#1e3a8a] border-indigo-900">
 
                 <Link to="https://wa.me/919080276429?text=I%20am%20interested%20to%20know%20more%20about%20classes">Contact</Link>
             </div>
@@ -86,7 +116,7 @@ function Nav() {
                         strokeWidth={2}
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        className=" feather-align-right dark:text-gray-100 "
+                        className=" feather-align-right dark:text-gray-100"
                     >
                         <line x1={21} y1={10} x2={7} y2={10} />
                         <line x1={21} y1={6} x2={3} y2={6} />
@@ -99,7 +129,7 @@ function Nav() {
                         height="24"
                         viewBox="0 0 24 24"
                         fill="none"
-                        stroke="black"
+                        stroke="gray"
                         strokeWidth={2}
                         strokeLinecap="round"
                         strokeLinejoin="round"
@@ -113,5 +143,19 @@ function Nav() {
         </header>
     );
 }
+
+function NavLink({ link, activeLink, onClick, children }) {
+    const isActive = link === activeLink;
+  
+    return (
+      <Link
+        to={link}
+        className={`block p-2 ${isActive ? 'text-blue-500' : 'text-gray dark:text-gray-100'}`}
+        onClick={() => onClick(link)}
+      >
+        {children}
+      </Link>
+    );
+  }
 
 export default Nav;

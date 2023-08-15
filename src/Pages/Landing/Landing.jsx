@@ -21,11 +21,11 @@ function Landing() {
                     <h1 class="block text-6xl mt-[1rem] font-medium text-gray-800 sm:text-[4rem] md:text-[4rem] lg:text-[6rem] dark:text-white text-left ">
                         S.S Alternative Medicines
                     </h1>
-                    <p class="mt-4 text-xl text-gray-800  dark:text-gray-400">
+                    <p class="font-large mt-4 text-xl text-gray-800  dark:text-gray-400">
                         Treat the Patient, Not the Disease
                     </p>
 
-                    <p class="mt-1 text-lg text-gray-800 font-thin dark:text-gray-400">
+                    <p class="font-medium mt-1 text-lg text-gray-800 font-thin dark:text-gray-400">
                         Edward Bach
                     </p>
 
