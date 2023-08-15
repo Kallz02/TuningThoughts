@@ -32,5 +32,3 @@ dist-ssr
 /TuningBack/.env
 /TuningBack/dist
 temp
-
-rename.py
