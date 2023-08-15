@@ -50,7 +50,7 @@ function Kit() {
                     <img src="/p2.jpeg" className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
                 </div>
 
-                <div className="section flex flex-wrap">
+                <div className="section flex flex-wrap mt-[4rem]">
                     <div className="content mx-auto">
                         <h1 className='font-normal'>BEAUTY</h1>
                         <p className="font-medium">This Kit will be greatly useful for all types of hair-related issues such as</p>
@@ -66,7 +66,7 @@ function Kit() {
                     <img src="/p3.jpeg" className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
                 </div>
 
-                {/* <div className="section flex flex-wrap">
+                {/* <div className="section flex flex-wrap mt-[4rem]">
                     <div className="content">
                         <h1>RADIATION</h1>
                         <p className="font-medium">This Kit will be greatly useful for all types of Radiations effect from Sun and Phone Signals such as U.V, Radio Waves, etc., that causes serious issues on our body</p>
@@ -76,7 +76,7 @@ function Kit() {
                     </div>
                 </div> */}
 
-                <div className="section flex flex-wrap">
+                <div className="section flex flex-wrap mt-[4rem]">
                     <div className="content mx-auto">
                         <h1 className='font-normal'>WEIGHT LOSS</h1>
                         <p className="font-medium">This Kit will be greatly useful for Weight Loss and can able to reduce</p>
@@ -90,7 +90,7 @@ function Kit() {
                 </div>
 
 
-                <div className="section flex flex-wrap">
+                <div className="section flex flex-wrap mt-[4rem]">
                     <div className="content mx-auto">
                         <h1 className='font-normal'>WEIGHT GAIN</h1>
                         <p className="font-medium">This Kit will be greatly useful for Weight Gain <br /> and also improves energy and stamina of our body.</p>
@@ -99,7 +99,7 @@ function Kit() {
                     <img src="/p5.jpeg" className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
                 </div>
 
-                {/* <div className="section flex flex-wrap">
+                {/* <div className="section flex flex-wrap mt-[4rem]">
                     <div className="content mx-auto">
                         <h1 className='font-normal'>HEIGHT INCREASE</h1>
                         <p className="font-medium">This Kit will be greatly useful for Increase of height  in children. <br /> This can able to handle</p>
@@ -112,7 +112,7 @@ function Kit() {
                     <img src="/p6.jpeg" className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
                 </div> */}
 
-                <div className="section flex flex-wrap">
+                <div className="section flex flex-wrap mt-[4rem]">
                     <div className="content mx-auto">
                         <h1 className='font-normal'>LIVER CARE</h1>
                         <p className="font-medium">This Kit will be greatly useful for all types of Liver Related issues <br /> and are able to regenerate the cells. This can handle variety of factors <br /> that damage the liver,  such as viruses, alcohol use and obesity.</p>
@@ -121,7 +121,7 @@ function Kit() {
                     <img src="/p7.jpeg" className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
                 </div>
 
-                <div className="section flex flex-wrap">
+                <div className="section flex flex-wrap mt-[4rem]">
                     <div className="content mx-auto">
                         <h1 className='font-normal'>KIDNEY CARE</h1>
                         <p className="font-medium">This Kit will be greatly useful for all types of Kidney Related
@@ -133,7 +133,7 @@ function Kit() {
                     <img src="/p8.jpeg" className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
                 </div>
 
-                <div className="section flex flex-wrap">
+                <div className="section flex flex-wrap mt-[4rem]">
                     <div className="content mx-auto">
                         <h1 className='font-normal'>BRAIN BOOSTER</h1>
                         <p className="font-medium">This Kit will be greatly useful for all types of Brain Related issues and <br />
@@ -145,7 +145,7 @@ function Kit() {
                     <img src="/p9.jpeg" className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
                 </div>
 
-                <div className="section flex flex-wrap">
+                <div className="section flex flex-wrap mt-[4rem]">
                     <div className="content mx-auto">
                         <h1 className='font-normal'>EYE CARE</h1>
                         <p className="font-medium">This Kit will be greatly useful for all types of eye-related issues such as</p>
@@ -163,7 +163,7 @@ function Kit() {
 
                 </div>
 
-                {/* <div className="section flex flex-wrap">
+                {/* <div className="section flex flex-wrap mt-[4rem]">
                     <div className="content mx-auto">
                         <h1 className='font-normal'>STOMACH CARE</h1>
                         <p className="font-medium">This Kit will be greatly useful for all types of stomach-related issues such as</p>
@@ -184,7 +184,7 @@ function Kit() {
 
                 </div> */}
 
-                <div className="section flex flex-wrap">
+                <div className="section flex flex-wrap mt-[4rem]">
                     <div className="content mx-auto">
                         <h1 className='font-normal'>LUNGS CARE</h1>
                         <p className="font-medium">This Kit will be greatly useful for all types of lungs-related issues such as</p>
@@ -198,7 +198,7 @@ function Kit() {
                     <img src="/p12.jpeg" className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
                 </div>
 
-                <div className="section flex flex-wrap">
+                <div className="section flex flex-wrap mt-[4rem]">
                     <div className="content mx-auto">
                         <h1 className='font-normal'>HEART CARE</h1>
                         <p className="font-medium">This Kit will be greatly useful for all types of Heart-related issues such as</p>
@@ -211,7 +211,7 @@ function Kit() {
                     <img src="/p13.jpeg" className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
                 </div>
 
-                {/* <div className="section flex flex-wrap">
+                {/* <div className="section flex flex-wrap mt-[4rem]">
                     <div className="content mx-auto">
                         <h1 className='font-normal'>BONE CARE</h1>
                         <p className="font-medium">This Kit will be greatly useful for all types of Bone-related issues such as</p>
@@ -230,7 +230,7 @@ function Kit() {
                     <img src="/p14.jpeg" className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
                 </div> */}
 
-                <div className="section flex flex-wrap">
+                <div className="section flex flex-wrap mt-[4rem]">
                     <div className="content mx-auto">
                         <h1 className='font-normal'>NERVE CARE</h1>
                         <p className="font-medium">This Kit will be greatly useful for all types of Nerve-related issues <br />and pain that will strengthen the nerve and also increases <br /> the blood flow. This can handle</p>
@@ -245,6 +245,270 @@ function Kit() {
 
                     <img src="/p15.jpeg" className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
                 </div>
+
+                <div className="section flex flex-wrap mt-[4rem]">
+                    <div className="content mx-auto">
+                        <h1 className='font-normal'>GNANAM</h1>
+                        <p className="font-medium">This Kit will be greatly useful for a healthy brain  </p>
+                        <ol>
+                            {/* <li>Prevent Heart Attack</li>
+                            <li>Normalize B.P</li> */}
+                        </ol>
+                    </div>
+
+                    <img src="/p16.jpeg" className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
+                </div>
+
+                <div className="section flex flex-wrap mt-[4rem]">
+                    <div className="content mx-auto">
+                        <h1 className='font-normal'>NAADI</h1>
+                        <p className="font-medium">Naadi - To strengthen your nerves</p>
+                        <ol>
+                            {/* <li>Prevent Heart Attack</li>
+                            <li>Normalize B.P</li> */}
+                        </ol>
+                    </div>
+
+                    <img src="/p17.jpeg" className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
+                </div>
+
+                <div className="section flex flex-wrap mt-[4rem]">
+                    <div className="content mx-auto">
+                        <h1 className='font-normal'>FIRST AID KIT</h1>
+                        <p className="font-medium">Solution for 10 main problems in daily life</p>
+                        <ol>
+                            {/* <li>Prevent Heart Attack</li>
+                            <li>Normalize B.P</li> */}
+                        </ol>
+                    </div>
+
+                    <img src="/p18.jpeg" className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
+                </div>
+
+
+                <div className="section flex flex-wrap mt-[4rem]">
+                    <div className="content mx-auto">
+                        <h1 className='font-normal'>HIRUDHAYAM</h1>
+                        <p className="font-medium">Hirudhayam - To make your heart healthy</p>
+                        <ol>
+                            {/* <li>Prevent Heart Attack</li>
+                            <li>Normalize B.P</li> */}
+                        </ol>
+                    </div>
+
+                    <img src="/p19.jpeg" className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
+                </div>
+
+                <div className="section flex flex-wrap mt-[4rem]">
+                    <div className="content mx-auto">
+                        <h1 className='font-normal'>NETHRAM</h1>
+                        <p className="font-medium">Nethram - For your healthy eyes</p>
+                        <ol>
+                            {/* <li>Prevent Heart Attack</li>
+                            <li>Normalize B.P</li> */}
+                        </ol>
+                    </div>
+
+                    <img src="/p20.jpeg" className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
+                </div>
+
+                {/* <div className="section flex flex-wrap mt-[4rem]">
+                    <div className="content mx-auto">
+                        <h1 className='font-normal'>HEART CARE</h1>
+                        <p className="font-medium">This Kit will be greatly useful for all types of Heart-related issues such as</p>
+                        <ol>
+                            <li>Prevent Heart Attack</li>
+                            <li>Normalize B.P</li>
+                        </ol>
+                    </div>
+
+                    <img src="/p21.jpeg" className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
+                </div> */}
+
+                <div className="section flex flex-wrap mt-[4rem]">
+                    <div className="content mx-auto">
+                        <h1 className='font-normal'>SARUMAM</h1>
+                        <p className="font-medium">Sarumam - For your healthy skin</p>
+                        {/* <ol>
+                            <li>Prevent Heart Attack</li>
+                            <li>Normalize B.P</li>
+                        </ol> */}
+                    </div>
+
+                    <img src="/p22.jpeg" className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
+                </div>
+
+                <div className="section flex flex-wrap mt-[4rem]">
+                    <div className="content mx-auto">
+                        <h1 className='font-normal'>BACK FLOWER REMEDIES KIT</h1>
+                        <p className="font-medium">Leather kit(20ML) - England</p>
+                        <ol>
+                            {/* <li>Prevent Heart Attack</li>
+                            <li>Normalize B.P</li> */}
+                        </ol>
+                    </div>
+
+                    <img src="/p23.jpeg" className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
+                </div>
+
+                {/* <div className="section flex flex-wrap mt-[4rem]">
+                    <div className="content mx-auto">
+                        <h1 className='font-normal'>HEART CARE</h1>
+                        <p className="font-medium">This Kit will be greatly useful for all types of Heart-related issues such as</p>
+                        <ol>
+                            <li>Prevent Heart Attack</li>
+                            <li>Normalize B.P</li>
+                        </ol>
+                    </div>
+
+                    <img src="/p24.jpeg" className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
+                </div> */}
+
+                <div className="section flex flex-wrap mt-[4rem]">
+                    <div className="content mx-auto">
+                        <h1 className='font-normal'>BACH FLOWER REMEDIES KIT</h1>
+                        <p className="font-medium">Indian kit (30ML)</p>
+                        {/* <ol>
+                            <li>Prevent Heart Attack</li>
+                            <li>Normalize B.P</li>
+                        </ol> */}
+                    </div>
+
+                    <img src="/p25.jpeg" className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
+                </div>
+
+                <div className="section flex flex-wrap mt-[4rem]">
+                    <div className="content mx-auto">
+                        <h1 className='font-normal'>BACH FLOWER REMEDIES KIT</h1>
+                        <p className="font-medium">Wooden box Kit(20ML) - England</p>
+                        {/* <ol>
+                            <li>Prevent Heart Attack</li>
+                            <li>Normalize B.P</li>
+                        </ol> */}
+                    </div>
+
+                    <img src="/p26.jpeg" className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
+                </div>
+
+                <div className="section flex flex-wrap mt-[4rem]">
+                    <div className="content mx-auto">
+                        <h1 className='font-normal'>NEPHRO GUARDIAN</h1>
+                        <p className="font-medium">Nephro Guardian - for your healthy kidney</p>
+                        {/* <ol>
+                            <li>Prevent Heart Attack</li>
+                            <li>Normalize B.P</li>
+                        </ol> */}
+                    </div>
+
+                    <img src="/p27.jpeg" className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
+                </div>
+
+                <div className="section flex flex-wrap mt-[4rem]">
+                    <div className="content mx-auto">
+                        <h1 className='font-normal'>SOWNDARYAM</h1>
+                        <p className="font-medium">Sowndaryam - To enhance your beauty</p>
+                        {/* <ol>
+                            <li>Prevent Heart Attack</li>
+                            <li>Normalize B.P</li>
+                        </ol> */}
+                    </div>
+
+                    <img src="/p28.jpeg" className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
+                </div>
+
+                <div className="section flex flex-wrap mt-[4rem]">
+                    <div className="content mx-auto">
+                        <h1 className='font-normal'>SUVASAM</h1>
+                        <p className="font-medium">Suvasam - To make your lungs healthy</p>
+                        {/* <ol>
+                            <li>Prevent Heart Attack</li>
+                            <li>Normalize B.P</li>
+                        </ol> */}
+                    </div>
+
+                    <img src="/p29.jpeg" className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
+                </div>
+
+                <div className="section flex flex-wrap mt-[4rem]">
+                    <div className="content mx-auto">
+                        <h1 className='font-normal'>WEIGHT LOSS KIT</h1>
+                        <p className="font-medium">To decrease your weight and make you fit</p>
+                        {/* <ol>
+                            <li>Prevent Heart Attack</li>
+                            <li>Normalize B.P</li>
+                        </ol> */}
+                    </div>
+
+                    <img src="/p30.jpeg" className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
+                </div>
+
+                <div className="section flex flex-wrap mt-[4rem]">
+                    <div className="content mx-auto">
+                        <h1 className='font-normal'>WEIGHT GAIN KIT</h1>
+                        <p className="font-medium">To increase your weight and make you fit</p>
+                        {/* <ol>
+                            <li>Prevent Heart Attack</li>
+                            <li>Normalize B.P</li>
+                        </ol> */}
+                    </div>
+
+                    <img src="/p31.jpeg" className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
+                </div>
+
+                <div className="section flex flex-wrap mt-[4rem]">
+                    <div className="content mx-auto">
+                        <h1 className='font-normal'>HEPATIC GUARDIAN</h1>
+                        <p className="font-medium">Hepatic guardian - To make your liver healthy</p>
+                        {/* <ol>
+                            <li>Prevent Heart Attack</li>
+                            <li>Normalize B.P</li>
+                        </ol> */}
+                    </div>
+
+                    <img src="/p32.jpeg" className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
+                </div>
+
+
+                <div className="section flex flex-wrap mt-[4rem]">
+                    <div className="content mx-auto">
+                        <h1 className='font-normal'>KESAM</h1>
+                        <p className="font-medium">Kesam - To make your hair healthy</p>
+                        {/* <ol>
+                            <li>Prevent Heart Attack</li>
+                            <li>Normalize B.P</li>
+                        </ol> */}
+                    </div>
+
+                    <img src="/p34.jpeg" className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
+                </div>
+
+                <div className="section flex flex-wrap mt-[4rem]">
+                    <div className="content mx-auto">
+                        <h1 className='font-normal'>SUPER POWER MAGNETS</h1>
+                        <p className="font-medium">For multiple purpose</p>
+                        {/* <ol>
+                            <li>Prevent Heart Attack</li>
+                            <li>Normalize B.P</li>
+                        </ol> */}
+                    </div>
+
+                    <img src="/p35.jpeg" className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
+                </div>
+
+                <div className="section flex flex-wrap mt-[4rem]">
+                    <div className="content mx-auto">
+                        <h1 className='font-normal'>MENTHOL</h1>
+                        <p className="font-medium">Thailam</p>
+                        {/* <ol>
+                            <li>Prevent Heart Attack</li>
+                            <li>Normalize B.P</li>
+                        </ol> */}
+                    </div>
+
+                    <img src="/p36.jpeg" className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
+                </div>
+
+                {/*  */}
                 <h3 className='text-center'>
                     And many more KITs
                 </h3>
