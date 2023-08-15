@@ -42,40 +42,18 @@ function Landing() {
                 <div class="lg:col-span-4 mt-10 lg:mt-0">
                     <img class="w-full rounded-xl border-2 border-black" src="/bach.jpg" alt="Image Description" />
                 </div>
-
-                
-                
             </div>
 
-            {/* <div class= "flex justify-center items-center gap-4">
+
+            <div class= "flex justify-center items-center gap-4">
                 <div class="w-9/12 mt-10 ">
                 <iframe class="w-[43rem] h-[24rem] rounded-lg" src="https://www.youtube-nocookie.com/embed/j9UamLhNLUQ" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
                 <div class="w-9/12 mt-10 ">
                 <iframe class="w-[43rem] h-[24rem] rounded-lg" src="https://www.youtube-nocookie.com/embed/F1BRgBffybM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
-            </div> */}
-
-            <div class="flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
-                <div class="w-11/12 sm:w-9/12 mt-10">
-                    <iframe class="w-full h-[24rem] rounded-lg" src="https://www.youtube-nocookie.com/embed/j9UamLhNLUQ" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                </div>
-                <div class="w-11/12 sm:w-9/12 mt-10">
-                    <iframe class="w-full h-[24rem] rounded-lg" src="https://www.youtube-nocookie.com/embed/F1BRgBffybM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                </div>
             </div>
-
-
-            {/* <div class="lg:col-span-4 mt-10 lg:mt-10 flex justify-center items-center">
-                <img class=" w-42 rounded-xl border-2 border-black" src="/behindwoods.jpg" alt="Centered Image"/>
-            </div> */}
-
-            {/* <div class="aspect-w-16 aspect-h-9">
-            <iframe class="rounded lg" width="560" height="315" src="https://www.youtube-nocookie.com/embed/j9UamLhNLUQ" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </div> */}
-
-            
-            
+                        
             <Naga />
             <VideoCarousel playlistId={prep} api={api} title1={"Preperations"} />
             <VideoCarousel playlistId={list} api={api} title1={"Testimonials"} />
