@@ -1,10 +1,24 @@
 import React from 'react'
 import Cards from './Cards'
 import './Events.css'
+import {Helmet} from 'react-helmet';
 
 
 function Events() {
     return (
+        <>
+        <Helmet>
+                <meta charSet="utf-8" />
+                <title>Events | Tuning Thoughts</title>
+                
+                <meta name="description" content="A Flower Remedies Portal that contains all information well explained with proof and evidences. Heal Thyself - Free Thyself. Come and Join with us to Experience Miracles!!!"/>
+                <meta name="keywords" content="Tuning Thoughts,Seshathiri,Malar maruthuvam,மலர் மருத்துவம்,Flower Remedies,Flower Medicines,Cancer Treatment,S.S Alternative Medicines,Edward Bach,Bach flower remedies,Nagalingam ,Indian flower remedies,இந்திய மலர் மருத்துவம்,சாந்தம் அறக்கட்டளை,Saantham Trust ,Dr.S.Seshathiri ,Health tips,Natural Remedies,Tesla,Einstein,Alternative medicines"/>
+                <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+            
+            </Helmet>
+        
+        
+      
         <div className='flex flex-col items-center justify-center'>
             <div className='prose prose-li:list-decimal max-w-[75rem] mx-[1.5rem]'>
                 <h1 className="font-normal text-[2.5rem] md:text-[3.5rem] dark:text-gray-200">Events</h1>
@@ -51,6 +65,7 @@ function Events() {
 
             </div>
         </div>
+        </>
     )
 }
 
