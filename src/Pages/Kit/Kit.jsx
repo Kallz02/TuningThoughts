@@ -508,10 +508,9 @@ function Kit() {
                     <img src="/p36.jpeg" className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
                 </div>
 
-                {/*  */}
-                <h3 className='text-center'>
-                    And many more KITs
-                </h3>
+               
+               
+                <h3 className='dark:text-gray-600 font-normal text-center'>  And many more KITs...</h3>
 
 
 
