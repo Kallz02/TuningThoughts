@@ -12,7 +12,7 @@ function Footer() {
                     </p>
                     <br></br>
                 </div>
-                
+
                 <h3 className='dark:text-gray-200 font-normal text-center'>Address: <br>
                 </br>130/38T, polytechnic road,<br>
                 </br>Gandhi Nagar,<br>
@@ -73,7 +73,7 @@ function Footer() {
                 <ul class="mt-12 flex justify-center gap-6 md:gap-8">
                     <li>
                         <a
-                            href="/"
+                            href="https://www.facebook.com/TuningThoughts?mibextid=ZbWKwL"
                             rel="noreferrer"
                             target="_blank"
                             class="text-gray-600 transition hover:text-gray-700/75"

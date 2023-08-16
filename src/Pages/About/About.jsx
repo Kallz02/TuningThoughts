@@ -86,7 +86,22 @@ const About = () => {
                </div>
             </p>
 
-            
+            <h3 className='dark:text-gray-200 font-normal text-center'>  The countries that we frequently send remedies are : <br>
+            </br>1. USA<br>
+            </br>2. UK<br>
+            </br>3. Germany<br>
+            </br>4. Australia<br>
+            </br>5. Dubai<br>
+            </br>6. Sri Lanka<br>
+            </br>7. Malaysia<br>
+            </br>8. Singapore<br>
+            </br>9. Kuwait<br>
+            </br>10. Oman<br>
+            </br>11. Saudi Arabia<br>
+            </br>12. Bahrain<br>
+            </br>13. Canada<br>
+            </br>Still Counting !!!<br></br><br></br>
+            </h3>
 
             <h1 className="dark:text-gray-100 font-light mb-[2px]">Saantham Trust</h1>
             
