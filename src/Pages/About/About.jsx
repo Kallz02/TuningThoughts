@@ -86,7 +86,13 @@ const About = () => {
                </div>
             </p>
 
-            <h1 className="dark:text-gray-100 font-light">Saantham Trust</h1>
+            <h1 className="dark:text-gray-100 font-light mb-[2px]">Saantham Trust</h1>
+            
+               <div class="lg:col-span-4 mt-0 lg:mt-0">
+                 <img class="w-[23rem] h-[19rem] rounded-lg rounded-xl border-2 border-black" src="/logo3.jpg" alt="logo 2" />
+               </div>
+             
+
             <p>Saantham Trust is a Registered Trust Running in Gudiyatham for the benefits of the
                Public. We Voice for Flower remedies and Alternative Medicines Miracles and
                benefits. We also help people who are in need for medical aid and promote
@@ -96,11 +102,11 @@ const About = () => {
 
 
             <div className=" flex items-center gap-4">
-               <p className='dark:text-gray-100'>Youtube : TuningThoughts</p>
+               <p className='dark:text-gray-100 '><a href="https://www.youtube.com/channel/UCU1U_hqYjzEKjG6txI3OHjQ" >Youtube : TuningThoughts</a></p>
 
 
 
-               <Link
+               {/* <Link
                   href="https://www.youtube.com/channel/UCU1U_hqYjzEKjG6txI3OHjQ"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -121,7 +127,8 @@ const About = () => {
                      <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z" />
                      <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" />
                   </svg>
-               </Link>
+               </Link> */}
+
             </div>
             <h1 className="dark:text-gray-100 font-light mt-6"> <center> SUPREME COURT JUDGMENT</center> </h1>
 

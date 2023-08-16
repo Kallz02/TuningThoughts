@@ -26,10 +26,10 @@ function Footer() {
                         </li>
 
                         <li>
-                            <Link to="/testimonials" className="ml-2 text-gray-400 hover:text-teal-800">
+                            <Link to="/testimonial" className="ml-2 text-gray-400 hover:text-teal-800">
                                 Testimonials
                             </Link>
-                        </li>
+                        </li> 
 
                         <li>
                             <Link to="/events" className="ml-2 text-gray-400 hover:text-teal-800">
