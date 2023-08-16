@@ -13,7 +13,7 @@ const PhotoCarousel2 = () => {
                         >
                             <div className="flex flex-col bg-white border shadow-sm rounded-lg hover:shadow-lg transition dark:bg-gray-900 dark:border-gray-700 dark:shadow-slate-700/[.7]">
                                 <img
-                                    className="w-auto h-[224px]"
+                                    className="w-full aspect-auto"
                                     src="/accreditation/1.jpg"
 
                                     alt="accreditation"
@@ -27,7 +27,7 @@ const PhotoCarousel2 = () => {
                         >
                             <div className="flex flex-col bg-white border shadow-sm rounded-lg hover:shadow-lg transition dark:bg-gray-900 dark:border-gray-700 dark:shadow-slate-700/[.7]">
                                 <img
-                                    className="w-auto h-[224px] "
+                                    className="w-full aspect-auto h-[224px] "
                                     src="/accreditation/2.jpg"
 
                                     alt="accreditation"
@@ -41,7 +41,7 @@ const PhotoCarousel2 = () => {
                         >
                             <div className="flex flex-col bg-white border shadow-sm rounded-lg hover:shadow-lg transition dark:bg-gray-900 dark:border-gray-700 dark:shadow-slate-700/[.7]">
                                 <img
-                                    className="w-auto h-[224px] "
+                                    className="w-full aspect-auto h-[224px] "
                                     src="/accreditation/3.jpg"
 
                                     alt="accreditation"
@@ -56,28 +56,13 @@ const PhotoCarousel2 = () => {
                         >
                             <div className="flex flex-col bg-white border shadow-sm rounded-lg hover:shadow-lg transition dark:bg-gray-900 dark:border-gray-700 dark:shadow-slate-700/[.7]">
                                 <img
-                                    className="w-auto h-[224px] "
+                                    className="w-full h-[224px] aspect-auto"
                                     src="/accreditation/4.jpg"
 
                                     alt="accreditation"
                                 />
                             </div>
                         </div>
-
-
-                        {/* <div
-                            className="carousel-item w-[320px] mx-3"
-                            style={{ cursor: "pointer" }}
-                        >
-                            <div className="flex flex-col bg-white border shadow-sm rounded-lg hover:shadow-lg transition dark:bg-gray-900 dark:border-gray-700 dark:shadow-slate-700/[.7]">
-                                <img
-                                    className="w-[320px] h-[224px] rounded-t-lg"
-                                    src="/accreditation/5.jpg"
-
-                                    alt="accreditation"
-                                />
-                            </div>
-                        </div> */}
 
                     </div>
                 </div>

@@ -31,7 +31,49 @@ const About = () => {
 
 
             <h1 className="dark:text-gray-100 font-light mt-10" > <center> S.S Alternative Medicines </center> </h1>
-            <PhotoCarousel2 folderName={"accreditation"} />
+
+            {/* <PhotoCarousel2 folderName={"accreditation"} /> */}
+
+            <div className="flex flex-row flex-wrap my-[2rem] mx-auto gap-2">
+               <div className="grow shrink basis-1/4 bg-white border shadow-sm rounded-lg hover:shadow-lg transition dark:bg-gray-900 dark:border-gray-700 dark:shadow-slate-700/[.7]">
+                  <img
+                     className="mx-auto aspect-auto "
+                     src="/accreditation/1.jpg"
+
+                     alt="accreditation"
+                  />
+               </div>
+
+               <div className="grow shrink basis-1/4 bg-white border shadow-sm rounded-lg hover:shadow-lg transition dark:bg-gray-900 dark:border-gray-700 dark:shadow-slate-700/[.7]">
+                  <img
+                     className="mx-auto aspect-auto md:h-[224px] "
+                     src="/accreditation/2.jpg"
+
+                     alt="accreditation"
+                  />
+               </div>
+
+               <div className="grow shrink basis-1/4 bg-white border shadow-sm rounded-lg hover:shadow-lg transition dark:bg-gray-900 dark:border-gray-700 dark:shadow-slate-700/[.7]">
+                  <img
+                     className="mx-auto aspect-auto md:h-[224px] "
+                     src="/accreditation/3.jpg"
+
+                     alt="accreditation"
+                  />
+               </div>
+
+               <div className="grow shrink basis-1/4 bg-white border shadow-sm rounded-lg hover:shadow-lg transition dark:bg-gray-900 dark:border-gray-700 dark:shadow-slate-700/[.7]">
+                  <img
+                     className="mx-auto aspect-auto"
+                     src="/accreditation/4.jpg"
+
+                     alt="accreditation"
+                  />
+               </div>
+
+
+            </div>
+
             <p>It is an<b> ISO 9001:2015 Certified Company with Good Manufacturing Practices
                ( GMP ) Certification</b>.
                It has also got MSME Certification , <b>FDA Certified facility</b>, UDYAM Registration for Manufacture of
