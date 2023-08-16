@@ -1,10 +1,20 @@
-import React from 'react'
+
 import './Kit.css'
 
+import {Helmet} from 'react-helmet';
 function Kit() {
     return (
 
-
+<>
+<Helmet>
+                <meta charSet="utf-8" />
+                <title>Kit | Tuning Thoughts</title>
+                
+                <meta name="description" content="A Flower Remedies Portal that contains all information well explained with proof and evidences. Heal Thyself - Free Thyself. Come and Join with us to Experience Miracles!!!"/>
+                <meta name="keywords" content="Tuning Thoughts,Seshathiri,Malar maruthuvam,மலர் மருத்துவம்,Flower Remedies,Flower Medicines,Cancer Treatment,S.S Alternative Medicines,Edward Bach,Bach flower remedies,Nagalingam ,Indian flower remedies,இந்திய மலர் மருத்துவம்,சாந்தம் அறக்கட்டளை,Saantham Trust ,Dr.S.Seshathiri ,Health tips,Natural Remedies,Tesla,Einstein,Alternative medicines"/>
+                <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+            
+            </Helmet>
         <div className='mx-[1.5rem]'>
             <h1 className='text-[2.5rem] md:text-[3.5rem] font-medium dark:text-gray-100 my-5'>
                 Our Products
@@ -518,7 +528,7 @@ function Kit() {
             </div>
 
 
-        </div>
+        </div>  </>
 
     )
 }
