@@ -61,7 +61,7 @@ function Landing() {
                         
             <Naga />
             <ProductCarousel/>
-            <VideoCarousel playlistId={prep} api={api} title1={"Preperations"} />
+            <VideoCarousel playlistId={prep} api={api} title1={"Preparations"} />
             <VideoCarousel playlistId={list} api={api} title1={"Testimonials"} />
         </div>
     )

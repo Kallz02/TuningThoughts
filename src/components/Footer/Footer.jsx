@@ -137,8 +137,10 @@ function Footer() {
                 </ul>
 
             </div>
-            <div className="text-center pb-3 underline">
-                <Link to="https://akshayk.dev/" target='_blank' className='mx-auto text-blue-500 mt-5'>Created By Akshay</Link>
+            <div className="text-center pb-3 dark:text-gray-200">
+            Created By <Link to="https://akshayk.dev/" target='_blank' className='mx-auto text-blue-500 mt-5 decoration-indigo-500 underline'>Akshay</Link>
+                &nbsp;,&nbsp;<Link to="#" target='_blank' className='mx-auto text-blue-500 mt-5 underline'>Ram</Link>
+                &nbsp;,&nbsp;<Link to="#" target='_blank' className='mx-auto text-blue-500 mt-5 underline '>Arun</Link>
             </div>
         </footer>
 
