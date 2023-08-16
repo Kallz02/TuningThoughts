@@ -3,7 +3,6 @@
 import { Link } from "react-router-dom";
 
 import PhotoCarousel from "../../components/Carousel/PhotoCarousel";
-import PhotoCarousel2 from "../../components/Carousel/PhotoCarousel2";
 
 const About = () => {
    return (
@@ -31,7 +30,50 @@ const About = () => {
 
 
             <h1 className="dark:text-gray-100 font-light mt-10" > <center> S.S Alternative Medicines </center> </h1>
-            <PhotoCarousel2 folderName={"accreditation"} />
+
+            
+
+            <div className="flex flex-row flex-wrap my-[2rem] mx-auto gap-2">
+
+               <div className="grow shrink basis-1/4 bg-white border shadow-sm rounded-lg hover:shadow-lg transition dark:bg-gray-900 dark:border-gray-700 dark:shadow-slate-700/[.7]">
+                  <img
+                     className="mx-auto aspect-auto md:h-[224px]"
+                     src="/accreditation/1.jpg"
+
+                     alt="accreditation"
+                  />
+               </div>
+
+               <div className="grow shrink basis-1/4 bg-white border shadow-sm rounded-lg hover:shadow-lg transition dark:bg-gray-900 dark:border-gray-700 dark:shadow-slate-700/[.7]">
+                  <img
+                     className="mx-auto aspect-auto md:h-[224px] "
+                     src="/accreditation/2.jpg"
+
+                     alt="accreditation"
+                  />
+               </div>
+
+               <div className="grow shrink basis-1/4 bg-white border shadow-sm rounded-lg hover:shadow-lg transition dark:bg-gray-900 dark:border-gray-700 dark:shadow-slate-700/[.7]">
+                  <img
+                     className="mx-auto aspect-auto md:h-[224px] "
+                     src="/accreditation/3.jpg"
+
+                     alt="accreditation"
+                  />
+               </div>
+
+               <div className="grow shrink basis-1/4 bg-white border shadow-sm rounded-lg hover:shadow-lg transition dark:bg-gray-900 dark:border-gray-700 dark:shadow-slate-700/[.7]">
+                  <img
+                     className="mx-auto aspect-auto"
+                     src="/accreditation/4.jpg"
+
+                     alt="accreditation"
+                  />
+               </div>
+
+
+            </div>
+
             <p>It is an<b> ISO 9001:2015 Certified Company with Good Manufacturing Practices
                ( GMP ) Certification</b>.
                It has also got MSME Certification , <b>FDA Certified facility</b>, UDYAM Registration for Manufacture of
@@ -44,7 +86,30 @@ const About = () => {
                </div>
             </p>
 
-            <h1 className="dark:text-gray-100 font-light">Saantham Trust</h1>
+            <h3 className='dark:text-gray-200 font-normal text-center'>  The countries that we frequently send remedies are : <br>
+            </br>1. USA<br>
+            </br>2. UK<br>
+            </br>3. Germany<br>
+            </br>4. Australia<br>
+            </br>5. Dubai<br>
+            </br>6. Sri Lanka<br>
+            </br>7. Malaysia<br>
+            </br>8. Singapore<br>
+            </br>9. Kuwait<br>
+            </br>10. Oman<br>
+            </br>11. Saudi Arabia<br>
+            </br>12. Bahrain<br>
+            </br>13. Canada<br>
+            </br>Still Counting !!!<br></br><br></br>
+            </h3>
+
+            <h1 className="dark:text-gray-100 font-light mb-[2px]">Saantham Trust</h1>
+            
+               <div class="lg:col-span-4 mt-0 lg:mt-0">
+                 <img class="w-[23rem] h-[19rem] rounded-xl border-2 border-black" src="/logo3.jpg" alt="logo 2" />
+               </div>
+             
+
             <p>Saantham Trust is a Registered Trust Running in Gudiyatham for the benefits of the
                Public. We Voice for Flower remedies and Alternative Medicines Miracles and
                benefits. We also help people who are in need for medical aid and promote
@@ -54,11 +119,11 @@ const About = () => {
 
 
             <div className=" flex items-center gap-4">
-               <p className='dark:text-gray-100'>Youtube : TuningThoughts</p>
+               <p className="font-semibold">Youtube Channel: <a className='dark:text-gray-100 text-center font-normal' href="https://www.youtube.com/channel/UCU1U_hqYjzEKjG6txI3OHjQ" >TuningThoughts</a></p>
 
 
 
-               <Link
+               {/* <Link
                   href="https://www.youtube.com/channel/UCU1U_hqYjzEKjG6txI3OHjQ"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -79,7 +144,8 @@ const About = () => {
                      <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z" />
                      <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" />
                   </svg>
-               </Link>
+               </Link> */}
+
             </div>
             <h1 className="dark:text-gray-100 font-light mt-6"> <center> SUPREME COURT JUDGMENT</center> </h1>
 

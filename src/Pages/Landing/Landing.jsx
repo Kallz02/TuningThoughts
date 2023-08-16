@@ -1,6 +1,7 @@
 import React from 'react'
 import Naga from './components/Naga'
 import VideoCarousel from '../../components/Carousel/VideoCarousel';
+import ProductCarousel from '../../components/Carousel/ProductCarousel';
 
 
 function Landing() {
@@ -45,17 +46,22 @@ function Landing() {
             </div>
 
 
-            <div class= "flex justify-center items-center gap-4">
-                <div class="w-9/12 mt-10 ">
-                <iframe class="w-[43rem] h-[24rem] rounded-lg" src="https://www.youtube-nocookie.com/embed/j9UamLhNLUQ" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <h1 className="my-[4rem] text-3xl md:text-5xl dark:text-gray-100 carousel-heading">
+                <center>Latest Interviews</center>
+                
+            </h1>
+            <div class= "my-[2rem] p-[1rem] mx-auto flex flex-row flex-wrap justify-around gap-4">
+                <div class="w-[34] h-[15] justify-self-center rounded-lg grow">
+                    <iframe class="w-full aspect-video mx-auto rounded-lg object-none" src="https://www.youtube-nocookie.com/embed/j9UamLhNLUQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
-                <div class="w-9/12 mt-10 ">
-                <iframe class="w-[43rem] h-[24rem] rounded-lg" src="https://www.youtube-nocookie.com/embed/F1BRgBffybM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <div class="w-[34] h-[15] justify-self-center rounded-lg grow">
+                    <iframe class="w-full aspect-video mx-auto rounded-lg object-none" src="https://www.youtube-nocookie.com/embed/F1BRgBffybM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
             </div>
                         
             <Naga />
-            <VideoCarousel playlistId={prep} api={api} title1={"Preperations"} />
+            <ProductCarousel/>
+            <VideoCarousel playlistId={prep} api={api} title1={"Preparations"} />
             <VideoCarousel playlistId={list} api={api} title1={"Testimonials"} />
         </div>
     )
