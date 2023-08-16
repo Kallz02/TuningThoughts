@@ -1,0 +1,38 @@
+[
+    {
+      "name": "LIVER CARE",
+      "description": "",
+      "image": "/p7.jpeg"
+    },
+    {
+      "name": "KIDNEY CARE",
+      "description": "This is the second product.",
+      "image": "/p8.jpeg"
+    },
+    {
+      "name": "BRAIN BOOSTER",
+      "description": "This is the third product.",
+      "image": "/p9.jpeg"
+    },
+    {
+        "name": "EYE CARE",
+        "description": "This is the first product.",
+        "image": "/p10.jpeg"
+      },
+      {
+        "name": "LUNGS CARE",
+        "description": "This is the second product.",
+        "image": "/p12.jpeg"
+      },
+      {
+        "name": "HEART CARE",
+        "description": "This is the third product.",
+        "image": "/p13.jpeg"
+      },
+      {
+        "name": "NERVE CARE",
+        "description": "This is the first product.",
+        "image": "/p15.jpeg"
+      }
+]
+  
