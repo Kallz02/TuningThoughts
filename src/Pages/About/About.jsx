@@ -3,7 +3,6 @@
 import { Link } from "react-router-dom";
 
 import PhotoCarousel from "../../components/Carousel/PhotoCarousel";
-import PhotoCarousel2 from "../../components/Carousel/PhotoCarousel2";
 
 const About = () => {
    return (
@@ -32,7 +31,7 @@ const About = () => {
 
             <h1 className="dark:text-gray-100 font-light mt-10" > <center> S.S Alternative Medicines </center> </h1>
 
-            {/* <PhotoCarousel2 folderName={"accreditation"} /> */}
+            
 
             <div className="flex flex-row flex-wrap my-[2rem] mx-auto gap-2">
 
