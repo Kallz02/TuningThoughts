@@ -18,15 +18,15 @@ function Events() {
                    
                     <table class="mt-[3rem] table-auto">
                         <tbody>
-                            <tr className="text-center">
+                            <tr className="text-center hover:bg-sky-500/75">
                                 <td>Gudiyatham - Vellore</td>
                                 <td>குடியாத்தம் - வேலூர்</td>
                             </tr>
-                            <tr className="text-center">
+                            <tr className="text-center hover:bg-sky-500/75">
                                 <td>Chennai</td>
                                 <td>சென்னை</td>
                             </tr>
-                            <tr className="text-center">
+                            <tr className="text-center hover:bg-sky-500/75">
                                 <td>Bangalore</td>
                                 <td>பெங்களூர்</td>
                             </tr>

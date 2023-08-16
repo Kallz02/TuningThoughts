@@ -50,7 +50,7 @@ const VideoCarousel = ({ playlistId, api, title1 }) => {
       )
     );
   };
-
+ 
   return (
     <>
       <h1 className="my-[4rem] text-3xl md:text-5xl dark:text-gray-100 carousel-heading">
