@@ -2,7 +2,7 @@ import React from 'react'
 import Naga from './components/Naga'
 import VideoCarousel from '../../components/Carousel/VideoCarousel';
 import ProductCarousel from '../../components/Carousel/ProductCarousel';
-
+import {Helmet} from 'react-helmet';
 
 function Landing() {
 
@@ -10,12 +10,25 @@ function Landing() {
 
     const list = "PLJ6oyZmMA3ZYfYFrFTlQC-Jy17alfXBi6";
     const prep = "PLJ6oyZmMA3ZbROcZa1SpWPXfjhuCBEdfQ";
-    const event = "UCU1U_hqYjzEKjG6txI3OHjQ";
+    // const event = "UCU1U_hqYjzEKjG6txI3OHjQ";
 
-    const mem = "PLJ6oyZmMA3ZZQ-kxrMT9DyvxXKtDF6BEy"
-    const bach = "PLJ6oyZmMA3ZYPCEdVubx47J0ffb1dTiTx"
+    // const mem = "PLJ6oyZmMA3ZZQ-kxrMT9DyvxXKtDF6BEy"
+    // const bach = "PLJ6oyZmMA3ZYPCEdVubx47J0ffb1dTiTx"
 
     return (
+
+<>
+<Helmet>
+                <meta charSet="utf-8" />
+                <title>Tuning Thoughts</title>
+                <meta name="description" content="A Flower Remedies Portal that contains all information well explained with proof and evidences. Heal Thyself - Free Thyself. Come and Join with us to Experience Miracles!!!"/>
+                
+                <meta name="keywords" content="Tuning Thoughts,Seshathiri,Malar maruthuvam,மலர் மருத்துவம்,Flower Remedies,Flower Medicines,Cancer Treatment,S.S Alternative Medicines,Edward Bach,Bach flower remedies,Nagalingam ,Indian flower remedies,இந்திய மலர் மருத்துவம்,சாந்தம் அறக்கட்டளை,Saantham Trust ,Dr.S.Seshathiri ,Health tips,Natural Remedies,Tesla,Einstein,Alternative medicines"/>
+                <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+            
+            </Helmet>
+
+
         <div class=" md:mt-[1.5rem] mx-auto  max-w-[95rem]  px-4 sm:px-6 lg:px-8">
             <div class="grid lg:grid-cols-7   lg:gap-x-8 xl:gap-x-12 ">
                 <div class="lg:col-span-3 mt-[1rem] lg:mt-[3.5rem]">
@@ -63,7 +76,7 @@ function Landing() {
             <ProductCarousel/>
             <VideoCarousel playlistId={prep} api={api} title1={"Preparations"} />
             <VideoCarousel playlistId={list} api={api} title1={"Testimonials"} />
-        </div>
+        </div></>
     )
 }
 
