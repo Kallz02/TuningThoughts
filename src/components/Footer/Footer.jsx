@@ -44,7 +44,7 @@ function Footer() {
                         </li>
 
                         <li>
-                            <Link to="/kit" className="ml-2 text-gray-400 hover:text-teal-800">
+                            <Link to="/classes" className="ml-2 text-gray-400 hover:text-teal-800">
                                 Classes
                             </Link>
                         </li>
