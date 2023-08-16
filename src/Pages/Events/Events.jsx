@@ -15,16 +15,31 @@ function Events() {
                     <br />
                     <h3 className='dark:text-gray-200 font-normal text-center'>  Direct Consultation available on these locations :
                     </h3>
-                    <ol className='text-[1.2rem] text-center'>
-                        <li>Gudiyatham - Vellore  குடியாத்தம் - வேலூர்
-                        </li>
-                        <li>Chennai சென்னை
-                        </li>
-                        <li>Bangalore பெங்களூர்
-                        </li>
-                        <li>Thiruvanamalai  திருவண்ணாமலை</li>
-                        <li>Coimbatore  கோயம்புத்தூர்</li>
-                    </ol>
+                   
+                    <table class="mt-[3rem] table-auto">
+                        <tbody>
+                            <tr className="text-center hover:bg-sky-500/75">
+                                <td>Gudiyatham - Vellore</td>
+                                <td>குடியாத்தம் - வேலூர்</td>
+                            </tr>
+                            <tr className="text-center hover:bg-sky-500/75">
+                                <td>Chennai</td>
+                                <td>சென்னை</td>
+                            </tr>
+                            <tr className="text-center hover:bg-sky-500/75">
+                                <td>Bangalore</td>
+                                <td>பெங்களூர்</td>
+                            </tr>
+                            <tr className="text-center">
+                                <td>Thiruvanamalai</td>
+                                <td>திருவண்ணாமலை</td>
+                            </tr>
+                            <tr className="text-center">
+                                <td>Coimbatore</td>
+                                <td>கோயம்புத்தூர்</td>
+                            </tr>
+                        </tbody>
+                    </table>
                     <br />
                     <p className='text-center'>
                         Both online and offline Consultation available for 365 days dedicated to our people.

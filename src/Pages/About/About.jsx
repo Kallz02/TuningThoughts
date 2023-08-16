@@ -106,7 +106,7 @@ const About = () => {
             <h1 className="dark:text-gray-100 font-light mb-[2px]">Saantham Trust</h1>
             
                <div class="lg:col-span-4 mt-0 lg:mt-0">
-                 <img class="w-[23rem] h-[19rem] rounded-lg rounded-xl border-2 border-black" src="/logo3.jpg" alt="logo 2" />
+                 <img class="w-[23rem] h-[19rem] rounded-xl border-2 border-black" src="/logo3.jpg" alt="logo 2" />
                </div>
              
 
@@ -119,7 +119,7 @@ const About = () => {
 
 
             <div className=" flex items-center gap-4">
-               <p >Youtube Channel: <a className='dark:text-gray-100 text-center font-normal' href="https://www.youtube.com/channel/UCU1U_hqYjzEKjG6txI3OHjQ" >TuningThoughts</a></p>
+               <p className="font-semibold">Youtube Channel: <a className='dark:text-gray-100 text-center font-normal' href="https://www.youtube.com/channel/UCU1U_hqYjzEKjG6txI3OHjQ" >TuningThoughts</a></p>
 
 
 
