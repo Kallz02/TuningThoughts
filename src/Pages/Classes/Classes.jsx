@@ -10,6 +10,24 @@ function Classes() {
     const bach = "PLJ6oyZmMA3ZYPCEdVubx47J0ffb1dTiTx"
     return (
         <div className='max-w-[75rem] mx-6 md:mx-auto'>
+            <h1 className="font-normal text-[2.5rem] md:text-[3.5rem] dark:text-gray-200">Contact Office</h1>
+            <br></br>
+            <h3 className='dark:text-gray-200 font-normal text-center'>  GST number : 33AEYFS2858E1ZJ<br>
+            </br><br>
+            </br>Company name : S.S Alternative Medicines<br>
+            </br><br>
+            </br>Address: <br>
+            </br>130/38T, polytechnic road,<br>
+            </br>Gandhi Nagar,<br>
+            </br>Gudiyatham,<br>
+            </br>Vellore-632602<br>
+            </br><br>
+            </br>8838793089<br>
+            </br>
+            <a href="mailto:bachflowerremedies369@gmail.com?subject=Appointment%20Needed&body=Hi,%20Just%20visited%20your%20website!!%20Looking%20for%20an%20appointement">bachflowerremedies369@gmail.com</a>
+            <br></br>
+            <br></br>
+            </h3>
             <VideoCarousel playlistId={mem} api={api} title1={"Recorded Classes"} />
             <VideoCarousel playlistId={bach} api={api} title1={"Previous Classes"} />
         </div>

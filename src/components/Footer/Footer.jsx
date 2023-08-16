@@ -10,7 +10,20 @@ function Footer() {
                     <p class=" text-center leading-relaxed text-[1.25rem] text-gray-800 dark:text-gray-400">
                         S.S Alternative Medicines
                     </p>
+                    <br></br>
                 </div>
+                
+                <h3 className='dark:text-gray-200 font-normal text-center'>Address: <br>
+                </br>130/38T, polytechnic road,<br>
+                </br>Gandhi Nagar,<br>
+                </br>Gudiyatham,<br>
+                </br>Vellore-632602<br>
+                </br><br>
+                </br>8838793089<br>
+                </br>
+                <a href="mailto:bachflowerremedies369@gmail.com?subject=Appointment%20Needed&body=Hi,%20Just%20visited%20your%20website!!%20Looking%20for%20an%20appointement">bachflowerremedies369@gmail.com</a>
+            
+                </h3>
                 <nav aria-label="Footer Nav" class="mt-12">
                     <ul class="flex flex-wrap justify-center gap-6 md:gap-8 lg:gap-12">
                         <li>
@@ -44,13 +57,13 @@ function Footer() {
                         </li>
 
                         <li>
-                            <Link to="/kit" className="ml-2 text-gray-400 hover:text-teal-800">
+                            <Link to="/classes" className="ml-2 text-gray-400 hover:text-teal-800">
                                 Classes
                             </Link>
                         </li>
 
                         <li>
-                            <Link to="https://wa.me/919080276429?text=I%20am%20interested%20to%20know%20more%20about%20classes" className="ml-2 text-gray-400 hover:text-teal-800">
+                            <Link to="https://wa.me/918838793089?text=Hi,%20Just%20visited%20your%20website!!%20Looking%20for%20an%20appointement" className="ml-2 text-gray-400 hover:text-teal-800">
                                 Contact
                             </Link>
                         </li>

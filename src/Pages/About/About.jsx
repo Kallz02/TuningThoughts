@@ -86,6 +86,8 @@ const About = () => {
                </div>
             </p>
 
+            
+
             <h1 className="dark:text-gray-100 font-light mb-[2px]">Saantham Trust</h1>
             
                <div class="lg:col-span-4 mt-0 lg:mt-0">

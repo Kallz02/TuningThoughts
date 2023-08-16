@@ -102,7 +102,7 @@ function Nav() {
             <Dark />
             <div className="cta font-bold cta px-5 py-2 mr-[0.5em] contact rounded-xl bg-[#1e3a8a] border-indigo-900">
 
-                <Link to="https://wa.me/919080276429?text=I%20am%20interested%20to%20know%20more%20about%20classes">Contact</Link>
+                <Link to="https://wa.me/918838793089?text=Hi,%20Just%20visited%20your%20website!!%20Looking%20for%20an%20appointement">Contact</Link>
             </div>
             <label htmlFor="nav-menu">
                 <div className="navmenu">
