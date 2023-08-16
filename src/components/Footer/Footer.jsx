@@ -50,7 +50,7 @@ function Footer() {
                         </li>
 
                         <li>
-                            <Link to="https://wa.me/919080276429?text=I%20am%20interested%20to%20know%20more%20about%20classes" className="ml-2 text-gray-400 hover:text-teal-800">
+                            <Link to="https://wa.me/918838793089?text=Hi,%20Just%20visited%20your%20website!!%20Looking%20for%20an%20appointement" className="ml-2 text-gray-400 hover:text-teal-800">
                                 Contact
                             </Link>
                         </li>
