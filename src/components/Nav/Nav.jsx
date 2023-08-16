@@ -25,9 +25,13 @@ function Nav() {
     return (
         <header className="max-w-[95rem] mx-auto px-4 sm:px-6 lg:px-8 backdrop-blur-md">
             <div className="logo">
-                <img src="/logo.png" alt="" />
+                
+                <a href="/">
+                  <img src="/logo.png" alt="" />
+                </a>
 
-                <p className='dark:text-gray-100 sm:text-xl md:text-2xl lg:text-3xl'>Tuning Thoughts</p>
+                
+                <a href="/" className='dark:text-gray-100 sm:text-xl md:text-2xl lg:text-3xl'>Tuning Thoughts</a>
 
                 <Link
                     to="https://www.youtube.com/@tuningthoughts"
