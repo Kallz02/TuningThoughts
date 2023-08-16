@@ -13,7 +13,6 @@ function Classes() {
             <h1 className="font-normal text-[2.5rem] md:text-[3.5rem] dark:text-gray-200">Contact Office</h1>
             <br></br>
             <h3 className='dark:text-gray-200 font-normal text-center'>  GST number : 33AEYFS2858E1ZJ<br>
-            </br>IEC: AEYFS2858E<br>
             </br><br>
             </br>Company name : S.S Alternative Medicines<br>
             </br><br>
@@ -24,9 +23,10 @@ function Classes() {
             </br>Vellore-632602<br>
             </br><br>
             </br>8838793089<br>
-            </br>bachflowerremedies369@gmail.com <br></br>
-            {/* </br><a href="bachflowerremedies369@gmail.com">bachflowerremedies369@gmail.com</a>
-            <br></br> */}
+            </br>
+            <a href="mailto:bachflowerremedies369@gmail.com?subject=Appointment%20Needed&body=Hi,%20Just%20visited%20your%20website!!%20Looking%20for%20an%20appointement">bachflowerremedies369@gmail.com</a>
+            <br></br>
+            <br></br>
             </h3>
             <VideoCarousel playlistId={mem} api={api} title1={"Recorded Classes"} />
             <VideoCarousel playlistId={bach} api={api} title1={"Previous Classes"} />
