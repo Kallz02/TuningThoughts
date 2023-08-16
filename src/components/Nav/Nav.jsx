@@ -82,7 +82,7 @@ function Nav() {
 
                 <li>
                     <NavLink link="/kit" activeLink={activeLink} onClick={handleLinkClick}>
-                        Kit
+                        Products
                     </NavLink>
                 </li>
 
