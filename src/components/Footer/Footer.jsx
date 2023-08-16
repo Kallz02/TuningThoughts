@@ -96,7 +96,7 @@ function Footer() {
 
                     <li>
                         <Link
-                            to="https://www.instagram.com/tuning_thoughts/"
+                            to="https://instagram.com/tuningthoughtsseshathiri?igshid=MzNlNGNkZWQ4Mg=="
                             rel="noreferrer"
                             target="_blank"
                             class="text-gray-600 transition hover:text-gray-700/75"
