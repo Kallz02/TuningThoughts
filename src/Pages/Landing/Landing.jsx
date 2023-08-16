@@ -1,6 +1,7 @@
 import React from 'react'
 import Naga from './components/Naga'
 import VideoCarousel from '../../components/Carousel/VideoCarousel';
+import ProductCarousel from '../../components/Carousel/ProductCarousel';
 
 
 function Landing() {
@@ -59,6 +60,7 @@ function Landing() {
             </div>
                         
             <Naga />
+            <ProductCarousel/>
             <VideoCarousel playlistId={prep} api={api} title1={"Preperations"} />
             <VideoCarousel playlistId={list} api={api} title1={"Testimonials"} />
         </div>

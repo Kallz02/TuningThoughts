@@ -35,9 +35,10 @@ const About = () => {
             {/* <PhotoCarousel2 folderName={"accreditation"} /> */}
 
             <div className="flex flex-row flex-wrap my-[2rem] mx-auto gap-2">
+
                <div className="grow shrink basis-1/4 bg-white border shadow-sm rounded-lg hover:shadow-lg transition dark:bg-gray-900 dark:border-gray-700 dark:shadow-slate-700/[.7]">
                   <img
-                     className="mx-auto aspect-auto "
+                     className="mx-auto aspect-auto md:h-[224px]"
                      src="/accreditation/1.jpg"
 
                      alt="accreditation"
