@@ -119,7 +119,7 @@ const About = () => {
 
 
             <div className=" flex items-center gap-4">
-               <p >Youtube Channel: <a className='dark:text-gray-100 text-center font-normal' href="https://www.youtube.com/channel/UCU1U_hqYjzEKjG6txI3OHjQ" >TuningThoughts</a></p>
+               <p className="font-bold">Youtube Channel: <a className='dark:text-gray-100 text-center font-normal' href="https://www.youtube.com/channel/UCU1U_hqYjzEKjG6txI3OHjQ" >TuningThoughts</a></p>
 
 
 
