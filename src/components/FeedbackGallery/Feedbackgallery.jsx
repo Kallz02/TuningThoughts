@@ -8,7 +8,7 @@ function Feedbackgallery() {
         {imagePaths.map((imagePath, index) => (
             <div
             key={index}
-            className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/4 p-2 bg-gray-200 rounded-md"
+            className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/4 p-1 bg-gray-200 rounded-md"
             >
             <img src={imagePath} alt={`Photo ${index + 1}`} className="w-full h-auto rounded-md" />
             </div>
