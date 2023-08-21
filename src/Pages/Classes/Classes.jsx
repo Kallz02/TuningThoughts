@@ -1,5 +1,3 @@
-import React from 'react'
-import Cards from '../Events/Cards'
 import VideoCarousel from '../../components/Carousel/VideoCarousel'
 import {Helmet} from 'react-helmet';
 function Classes() {

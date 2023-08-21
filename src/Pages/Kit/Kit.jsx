@@ -267,7 +267,10 @@ function Kit() {
                             </ol>
                         </div>
 
-                        <img src="/p16.jpeg" className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
+                        <img src="/p16.jpeg"
+                        
+                                    loading="lazy"
+                        className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
                     </div>
 
                     <div className="section flex flex-wrap mt-[4rem]">
@@ -280,7 +283,10 @@ function Kit() {
                             </ol>
                         </div>
 
-                        <img src="/p17.jpeg" className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
+                        <img src="/p17.jpeg"
+                        
+                                    loading="lazy"
+                        className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
                     </div>
 
                     <div className="section flex flex-wrap mt-[4rem]">
@@ -293,7 +299,10 @@ function Kit() {
                             </ol>
                         </div>
 
-                        <img src="/p18.jpeg" className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
+                        <img src="/p18.jpeg"
+                        
+                                    loading="lazy"
+                        className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
                     </div>
 
 
@@ -307,7 +316,10 @@ function Kit() {
                             </ol>
                         </div>
 
-                        <img src="/p19.jpeg" className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
+                        <img src="/p19.jpeg"
+                        
+                                    loading="lazy"
+                        className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
                     </div>
 
                     <div className="section flex flex-wrap mt-[4rem]">
@@ -320,7 +332,10 @@ function Kit() {
                             </ol>
                         </div>
 
-                        <img src="/p20.jpeg" className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
+                        <img src="/p20.jpeg"
+                        
+                                    loading="lazy"
+                        className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
                     </div>
 
                     {/* <div className="section flex flex-wrap mt-[4rem]">
@@ -346,7 +361,10 @@ function Kit() {
                         </ol> */}
                         </div>
 
-                        <img src="/p22.jpeg" className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
+                        <img src="/p22.jpeg"
+                        
+                                    loading="lazy"
+                        className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
                     </div>
 
                     <div className="section flex flex-wrap mt-[4rem]">
@@ -359,7 +377,11 @@ function Kit() {
                             </ol>
                         </div>
 
-                        <img src="/p23.jpeg" className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
+                        <img src="/p23.jpeg" 
+                        
+                        
+                                    loading="lazy"
+                        className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
                     </div>
 
                     {/* <div className="section flex flex-wrap mt-[4rem]">
@@ -385,7 +407,10 @@ function Kit() {
                         </ol> */}
                         </div>
 
-                        <img src="/p25.jpeg" className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
+                        <img src="/p25.jpeg"
+                        
+                                    loading="lazy"
+                        className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
                     </div>
 
                     <div className="section flex flex-wrap mt-[4rem]">
@@ -398,7 +423,10 @@ function Kit() {
                         </ol> */}
                         </div>
 
-                        <img src="/p26.jpeg" className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
+                        <img src="/p26.jpeg"
+                        
+                                    loading="lazy"
+                        className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
                     </div>
 
                     <div className="section flex flex-wrap mt-[4rem]">
@@ -411,7 +439,10 @@ function Kit() {
                         </ol> */}
                         </div>
 
-                        <img src="/p27.jpeg" className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
+                        <img src="/p27.jpeg" 
+                        
+                                    loading="lazy"
+                        className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
                     </div>
 
                     <div className="section flex flex-wrap mt-[4rem]">
@@ -424,7 +455,10 @@ function Kit() {
                         </ol> */}
                         </div>
 
-                        <img src="/p28.jpeg" className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
+                        <img src="/p28.jpeg"
+                        
+                                    loading="lazy"
+                        className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
                     </div>
 
                     <div className="section flex flex-wrap mt-[4rem]">
@@ -437,7 +471,10 @@ function Kit() {
                         </ol> */}
                         </div>
 
-                        <img src="/p29.jpeg" className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
+                        <img src="/p29.jpeg" 
+                        
+                                    loading="lazy"
+                        className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
                     </div>
 
                     <div className="section flex flex-wrap mt-[4rem]">
@@ -450,7 +487,10 @@ function Kit() {
                         </ol> */}
                         </div>
 
-                        <img src="/p30.jpeg" className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
+                        <img src="/p30.jpeg"
+                        
+                                    loading="lazy"
+                        className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
                     </div>
 
                     <div className="section flex flex-wrap mt-[4rem]">
@@ -463,7 +503,10 @@ function Kit() {
                         </ol> */}
                         </div>
 
-                        <img src="/p31.jpeg" className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
+                        <img src="/p31.jpeg"
+                        
+                                    loading="lazy"
+                        className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
                     </div>
 
                     <div className="section flex flex-wrap mt-[4rem]">
@@ -476,7 +519,10 @@ function Kit() {
                         </ol> */}
                         </div>
 
-                        <img src="/p32.jpeg" className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
+                        <img src="/p32.jpeg" 
+                        
+                                    loading="lazy"
+                        className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
                     </div>
 
 
@@ -490,7 +536,10 @@ function Kit() {
                         </ol> */}
                         </div>
 
-                        <img src="/p34.jpeg" className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
+                        <img src="/p34.jpeg"
+                        
+                                    loading="lazy"
+                        className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
                     </div>
 
                     <div className="section flex flex-wrap mt-[4rem]">
@@ -503,7 +552,10 @@ function Kit() {
                         </ol> */}
                         </div>
 
-                        <img src="/p35.jpeg" className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
+                        <img src="/p35.jpeg" 
+                        
+                                    loading="lazy"
+                        className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
                     </div>
 
                     <div className="section flex flex-wrap mt-[4rem]">
@@ -516,7 +568,10 @@ function Kit() {
                         </ol> */}
                         </div>
 
-                        <img src="/p36.jpeg" className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
+                        <img src="/p36.jpeg" 
+                        
+                                    loading="lazy"
+                        className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
                     </div>
 
 

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
 // import "./VideoCarousel.css";
@@ -38,6 +38,8 @@ const VideoCarousel = ({ playlistId, api, title1 }) => {
               className="h-auto rounded-t-lg w-[320px]"
               src={video.snippet.thumbnails.high.url}
               alt={video.snippet.title}
+            
+                                    loading="lazy"
             />
 
             <div className="p-2 md:p-4">

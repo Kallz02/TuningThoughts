@@ -30,7 +30,7 @@ function Events() {
                     <h3 className='dark:text-gray-200 font-normal text-center'>  Direct Consultation available on these locations :
                     </h3>
                    
-                    <table class="mt-[3rem] table-auto">
+                    <table className="mt-[3rem] table-auto">
                         <tbody>
                             <tr className="text-center hover:bg-sky-500/75">
                                 <td>Gudiyatham - Vellore</td>

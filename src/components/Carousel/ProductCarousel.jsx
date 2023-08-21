@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import products from './products.json'; 
 
@@ -16,6 +15,8 @@ const renderCarouselItem = (product, index) => {
               className="h-auto rounded-t-lg w-[320px]"
               src={product.image}
               alt={product.name}
+              
+                                    loading="lazy"
             />
 
             <div className="p-2 md:p-4">

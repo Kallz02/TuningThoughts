@@ -58,6 +58,7 @@ const About = () => {
                      className="mx-auto aspect-auto md:h-[224px] "
                      src="/accreditation/2.jpg"
 
+                                    loading="lazy"
                      alt="accreditation"
                   />
                </div>
@@ -67,6 +68,7 @@ const About = () => {
                      className="mx-auto aspect-auto md:h-[224px] "
                      src="/accreditation/3.jpg"
 
+                                    loading="lazy"
                      alt="accreditation"
                   />
                </div>
@@ -76,6 +78,7 @@ const About = () => {
                      className="mx-auto aspect-auto"
                      src="/accreditation/4.jpg"
 
+                                    loading="lazy"
                      alt="accreditation"
                   />
                </div>
@@ -114,8 +117,12 @@ const About = () => {
 
             <h1 className="dark:text-gray-100 font-light mb-[2px]">Saantham Trust</h1>
             
-               <div class="lg:col-span-4 mt-0 lg:mt-0">
-                 <img class="w-[23rem] h-[19rem] rounded-xl border-2 border-black" src="/logo3.jpg" alt="logo 2" />
+               <div className="lg:col-span-4 mt-0 lg:mt-0">
+                 <img 
+                 
+                                    loading="lazy"
+                 className="w-[23rem] h-[19rem] rounded-xl border-2 border-black" src="/logo3.jpg" alt="logo 2" />
+      
                </div>
              
 

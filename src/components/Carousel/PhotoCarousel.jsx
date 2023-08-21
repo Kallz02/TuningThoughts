@@ -13,7 +13,7 @@ const PhotoCarousel = () => {
                                 <img
                                     className="w-[320px] h-auto rounded-t-lg"
                                     src="/myphoto/5.jpeg"
-
+                                    loading="lazy"
                                     alt="myPhoto"
                                 />
                             </div>
@@ -27,6 +27,7 @@ const PhotoCarousel = () => {
                                     className="w-[500px] object-cover "
                                     src="/myphoto/1.jpeg"
 
+                                    loading="lazy"
                                     alt="myPhoto"
                                 />
                             </div>
@@ -41,6 +42,7 @@ const PhotoCarousel = () => {
                                     className="w-[500px] h-auto "
                                     src="/myphoto/2.jpeg"
 
+                                    loading="lazy"
                                     alt="myPhoto"
                                 />
                             </div>
@@ -55,6 +57,7 @@ const PhotoCarousel = () => {
                                     className="w-[500px] h-auto "
                                     src="/myphoto/3.jpeg"
 
+                                    loading="lazy"
                                     alt="myPhoto"
                                 />
                             </div>
@@ -70,6 +73,7 @@ const PhotoCarousel = () => {
                                     className="w-[500px] h-auto "
                                     src="/myphoto/4.jpeg"
 
+                                    loading="lazy"
                                     alt="myPhoto"
                                 />
                             </div>

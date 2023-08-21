@@ -1,4 +1,3 @@
-import React from 'react'
 
 function Naga() {
     return (
@@ -16,7 +15,10 @@ function Naga() {
             </div>
 
 
-            <img class=" justify-self-start lg:w-[500px]  m-0  md:mt-[2rem] rounded-lg border-2 border-black" src="/naga.webp" alt="Image Description" />
+            <img
+            
+                                    loading="lazy"
+            className=" justify-self-start lg:w-[500px]  m-0  md:mt-[2rem] rounded-lg border-2 border-black" src="/naga.webp" alt="Image Description" />
 
         </div>
     )

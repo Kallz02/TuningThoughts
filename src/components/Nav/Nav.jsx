@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Nav.css';
@@ -39,7 +39,7 @@ function Nav() {
                     target="_blank"
                     class="text-gray-600 transition hover:text-gray-700/75"
                 >
-                    <span class="sr-only">Youtube</span>
+                    <span className="sr-only">Youtube</span>
 
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
