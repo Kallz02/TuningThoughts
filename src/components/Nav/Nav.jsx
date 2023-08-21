@@ -31,7 +31,7 @@ function Nav() {
                 </Link>
 
                 
-                <Link href="/" className='dark:text-gray-100 sm:text-xl md:text-2xl lg:text-3xl'>Tuning Thoughts</Link>
+                <Link href="/" className='dark:text-gray-100 pt-2 sm:text-xl md:text-2xl lg:text-3xl'>Tuning Thoughts</Link>
 
                 <Link
                     to="https://www.youtube.com/@tuningthoughts"
