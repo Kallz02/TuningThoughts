@@ -34,3 +34,5 @@ dist-ssr
 temp
 
 rename.py
+
+/public/unused

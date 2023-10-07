@@ -44,11 +44,11 @@ function Events() {
                                 <td>Bangalore</td>
                                 <td>பெங்களூர்</td>
                             </tr>
-                            <tr className="text-center">
+                            <tr className="text-center hover:bg-sky-500/75">
                                 <td>Thiruvanamalai</td>
                                 <td>திருவண்ணாமலை</td>
                             </tr>
-                            <tr className="text-center">
+                            <tr className="text-center hover:bg-sky-500/75">
                                 <td>Coimbatore</td>
                                 <td>கோயம்புத்தூர்</td>
                             </tr>

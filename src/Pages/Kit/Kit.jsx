@@ -258,7 +258,7 @@ function Kit() {
                     </div> */}
 
                     <div className="section flex flex-wrap mt-[4rem]">
-                        <div className="content mx-auto">
+                        <div className="mt-[2rem] content mx-auto">
                             <h1 className='font-normal'>BRAIN CARE</h1>
                             <p className="font-medium">This Kit will be greatly useful for a healthy brain  </p>
                             <ol>
@@ -271,7 +271,7 @@ function Kit() {
                     </div>
 
                     <div className="section flex flex-wrap mt-[4rem]">
-                        <div className="content mx-auto">
+                        <div className="mt-[2rem] content mx-auto">
                             <h1 className='font-normal'>NERVE CARE</h1>
                             <p className="font-medium">Naadi - To strengthen your nerves</p>
                             <ol>
@@ -284,7 +284,7 @@ function Kit() {
                     </div>
 
                     <div className="section flex flex-wrap mt-[4rem]">
-                        <div className="content mx-auto">
+                        <div className="mt-[2rem] content mx-auto">
                             <h1 className='font-normal'>FIRST AID KIT</h1>
                             <p className="font-medium">Solution for 10 main problems in daily life</p>
                             <ol>
@@ -298,7 +298,7 @@ function Kit() {
 
 
                     <div className="section flex flex-wrap mt-[4rem]">
-                        <div className="content mx-auto">
+                        <div className="mt-[2rem] content mx-auto">
                             <h1 className='font-normal'>HEART CARE</h1>
                             <p className="font-medium">Hirudhayam - To make your heart healthy</p>
                             <ol>
@@ -311,7 +311,7 @@ function Kit() {
                     </div>
 
                     <div className="section flex flex-wrap mt-[4rem]">
-                        <div className="content mx-auto">
+                        <div className="mt-[2rem] content mx-auto">
                             <h1 className='font-normal'>EYE CARE</h1>
                             <p className="font-medium">Nethram - For your healthy eyes</p>
                             <ol>
@@ -324,7 +324,7 @@ function Kit() {
                     </div>
 
                     {/* <div className="section flex flex-wrap mt-[4rem]">
-                    <div className="content mx-auto">
+                    <div className="mt-[2rem] content mx-auto">
                         <h1 className='font-normal'>HEART CARE</h1>
                         <p className="font-medium">This Kit will be greatly useful for all types of Heart-related issues such as</p>
                         <ol>
@@ -337,7 +337,7 @@ function Kit() {
                 </div> */}
 
                     <div className="section flex flex-wrap mt-[4rem]">
-                        <div className="content mx-auto">
+                        <div className="mt-[2rem] content mx-auto">
                             <h1 className='font-normal'>SKIN CARE</h1>
                             <p className="font-medium">Sarumam - For your healthy skin</p>
                             {/* <ol>
@@ -350,8 +350,8 @@ function Kit() {
                     </div>
 
                     <div className="section flex flex-wrap mt-[4rem]">
-                        <div className="content mx-auto">
-                            <h1 className='font-normal'>BACK FLOWER REMEDIES KIT</h1>
+                        <div className="mt-[2rem] content mx-auto">
+                            <h1 className='font-normal'>BACH FLOWER REMEDIES KIT</h1>
                             <p className="font-medium">Leather kit(20ML) - England</p>
                             <ol>
                                 {/* <li>Prevent Heart Attack</li>
@@ -363,7 +363,7 @@ function Kit() {
                     </div>
 
                     {/* <div className="section flex flex-wrap mt-[4rem]">
-                    <div className="content mx-auto">
+                    <div className="mt-[2rem] content mx-auto">
                         <h1 className='font-normal'>HEART CARE</h1>
                         <p className="font-medium">This Kit will be greatly useful for all types of Heart-related issues such as</p>
                         <ol>
@@ -376,7 +376,7 @@ function Kit() {
                 </div> */}
 
                     <div className="section flex flex-wrap mt-[4rem]">
-                        <div className="content mx-auto">
+                        <div className="mt-[2rem] content mx-auto">
                             <h1 className='font-normal'>BACH FLOWER REMEDIES KIT</h1>
                             <p className="font-medium">Indian kit (30ML)</p>
                             {/* <ol>
@@ -389,7 +389,7 @@ function Kit() {
                     </div>
 
                     <div className="section flex flex-wrap mt-[4rem]">
-                        <div className="content mx-auto">
+                        <div className="mt-[2rem] content mx-auto">
                             <h1 className='font-normal'>BACH FLOWER REMEDIES KIT</h1>
                             <p className="font-medium">Wooden box Kit(20ML) - England</p>
                             {/* <ol>
@@ -402,7 +402,7 @@ function Kit() {
                     </div>
 
                     <div className="section flex flex-wrap mt-[4rem]">
-                        <div className="content mx-auto">
+                        <div className="mt-[2rem] content mx-auto">
                             <h1 className='font-normal'>KIDNEY CARE</h1>
                             <p className="font-medium">Nephro Guardian - for your healthy kidney</p>
                             {/* <ol>
@@ -415,7 +415,7 @@ function Kit() {
                     </div>
 
                     <div className="section flex flex-wrap mt-[4rem]">
-                        <div className="content mx-auto">
+                        <div className="mt-[2rem] content mx-auto">
                             <h1 className='font-normal'>BEAUTY CARE</h1>
                             <p className="font-medium">Sowndaryam - To enhance your beauty</p>
                             {/* <ol>
@@ -428,7 +428,7 @@ function Kit() {
                     </div>
 
                     <div className="section flex flex-wrap mt-[4rem]">
-                        <div className="content mx-auto">
+                        <div className="mt-[2rem] content mx-auto">
                             <h1 className='font-normal'>LUNGS CARE</h1>
                             <p className="font-medium">Suvasam - To make your lungs healthy</p>
                             {/* <ol>
@@ -441,7 +441,7 @@ function Kit() {
                     </div>
 
                     <div className="section flex flex-wrap mt-[4rem]">
-                        <div className="content mx-auto">
+                        <div className="mt-[2rem] content mx-auto">
                             <h1 className='font-normal'>WEIGHT LOSS KIT</h1>
                             <p className="font-medium">To decrease your weight and make you fit</p>
                             {/* <ol>
@@ -454,7 +454,7 @@ function Kit() {
                     </div>
 
                     <div className="section flex flex-wrap mt-[4rem]">
-                        <div className="content mx-auto">
+                        <div className="mt-[2rem] content mx-auto">
                             <h1 className='font-normal'>WEIGHT GAIN KIT</h1>
                             <p className="font-medium">To increase your weight and make you fit</p>
                             {/* <ol>
@@ -467,7 +467,7 @@ function Kit() {
                     </div>
 
                     <div className="section flex flex-wrap mt-[4rem]">
-                        <div className="content mx-auto">
+                        <div className="mt-[2rem] content mx-auto">
                             <h1 className='font-normal'>LIVER CARE</h1>
                             <p className="font-medium">Hepatic guardian - To make your liver healthy</p>
                             {/* <ol>
@@ -481,7 +481,7 @@ function Kit() {
 
 
                     <div className="section flex flex-wrap mt-[4rem]">
-                        <div className="content mx-auto">
+                        <div className="mt-[2rem] content mx-auto">
                             <h1 className='font-normal'>HAIR CARE</h1>
                             <p className="font-medium">Kesam - To make your hair healthy</p>
                             {/* <ol>
@@ -494,7 +494,7 @@ function Kit() {
                     </div>
 
                     <div className="section flex flex-wrap mt-[4rem]">
-                        <div className="content mx-auto">
+                        <div className="mt-[2rem] content mx-auto">
                             <h1 className='font-normal'>SUPER POWER MAGNETS</h1>
                             <p className="font-medium">For multiple purpose</p>
                             {/* <ol>
@@ -506,17 +506,66 @@ function Kit() {
                         <img src="/p35.jpeg" className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
                     </div>
 
-                    <div className="section flex flex-wrap mt-[4rem]">
-                        <div className="content mx-auto">
+                    <div className="section flex flex-wrap mt-[4rem] p-[2rem]">
+                        <div className="mt-[2rem] content mx-auto">
                             <h1 className='font-normal'>MENTHOL</h1>
                             <p className="font-medium">Thailam</p>
+                        </div>
+
+                        <img src="/p36.jpeg" className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
+                    </div>
+
+                    <div className="section flex flex-wrap mt-[4rem]">
+                        <div className="mt-[2rem] content mx-auto">
+                            <h1 className='font-normal'>BONE KIT</h1>
+                            <p className="font-medium">To strengthen your bones - 1 month pack </p>
                             {/* <ol>
                             <li>Prevent Heart Attack</li>
                             <li>Normalize B.P</li>
                         </ol> */}
                         </div>
 
-                        <img src="/p36.jpeg" className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
+                        <img src="/p37.jpg" className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
+                    </div>
+
+
+                    <div className="section flex flex-wrap mt-[4rem]">
+                        <div className="mt-[2rem] content mx-auto">
+                            <h1 className='font-normal'>DIABETIC KIT</h1>
+                            <p className="font-medium">To maintain and balance your sugar levels</p>
+                            {/* <ol>
+                            <li>Prevent Heart Attack</li>
+                            <li>Normalize B.P</li>
+                        </ol> */}
+                        </div>
+
+                        <img src="/p38.jpg" className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
+                    </div>
+
+                    <div className="section flex flex-wrap mt-[4rem]">
+                        <div className="mt-[2rem] content mx-auto">
+                            <h1 className='font-normal'>B.P KIT</h1>
+                            <p className="font-medium max-w-[300px] overflow-text">To maintain and balance your Blood Pressure - 1 month pack</p>
+                            {/* <ol>
+                            <li>Prevent Heart Attack</li>
+                            <li>Normalize B.P</li>
+                        </ol> */}
+                        </div>
+
+                        <img src="/p39.jpg" className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
+                    </div>
+
+                    <div className="section flex flex-wrap mt-[4rem]">
+                        <div className="mt-[2rem] content mx-auto">
+                            <h1 className='font-normal'>UTERUS KIT</h1>
+                            <p className="font-medium">To make your uterus healthy - 1 month pack</p>
+                            {/* <ol>
+                            <li>Prevent Heart Attack</li>
+                            <li>Normalize B.P</li>
+                        </ol> */}
+                        </div>
+
+                        <img src="/p40.jpg" className='md:max-w-[500px] rounded-lg mx-auto min-w-[350px]' />
                     </div>
 
 
