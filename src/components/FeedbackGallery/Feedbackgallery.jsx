@@ -1,6 +1,6 @@
 function Feedbackgallery() {
     //public\feedback
-    const imagePaths = Array.from({ length: 13 }, (_, index) => `/feedback/photo${index + 1}.jpg`);
+    const imagePaths = Array.from({ length: 21 }, (_, index) => `/feedback/photo${index + 1}.jpg`);
     imagePaths.splice(4, 1);      // skips the 5th image
   
     return (
