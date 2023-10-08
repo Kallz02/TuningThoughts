@@ -137,6 +137,9 @@ const About = () => {
             </br>11. Saudi Arabia<br>
             </br>12. Bahrain<br>
             </br>13. Canada<br>
+            </br>14. Brunei Darussalam<br>
+            </br>15. Nepal<br>
+            </br>16. France<br>
             </br>Still Counting !!!<br></br><br></br>
             </h3>
 
