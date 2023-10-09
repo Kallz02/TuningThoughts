@@ -20,10 +20,10 @@ const About = () => {
             </Helmet>
          <div className="prose mt-[1rem] prose-li:list-decimal mx-auto flex flex-col items-center dark:text-gray-200 px-6 max-w-[80rem] overflow-x-clip">
 
-            <h1 className="dark:text-gray-100 font-light text-[2.5rem] md:text-[3.5rem] "><center>About</center></h1>
+            <h1 className="dark:text-gray-100 font-light text-[2.5rem] md:text-[3.5rem] "><center>About Dr.S.Seshathiri</center></h1>
 
 
-            <p><b>Dr.S.Seshathiri B.A.S.M (ALT.)., M.D (ALT.). </b> , is an Researcher and Registered
+            <p className="text-center"><b>Dr.S.Seshathiri B.A.S.M (ALT.)., M.D (ALT.). </b> , is an Researcher and Registered
                Alternative Medicine Practitioner. He is also The Founder and Chairperson of
                S.S Alternative medicines and Saantham Trust. He has completed different
                diploma and has got certified from many alternative medicine association and
@@ -31,9 +31,37 @@ const About = () => {
                Practitioner from Bach Centre, England and has also completed Bachelor of
                Alternative System of Medicines and Doctor of Medicine in Alternative
                Medicines.
-               He is also an alternative medicines mentor and has taught over 3000+ students
-               for their Self-Healing Purpose. He also runs a YouTube Channel named “ Tuning
-               Thoughts “ , where several viewers and Subscribers Learn.</p>
+               <b>He is also an alternative medicines mentor and has taught over 6000+ students
+               for their Self-Healing Purpose.</b> He also runs a YouTube Channel named “ Tuning
+               Thoughts “ , where he shares his knowledge with thousands of his viewers and subscribers.</p>
+
+               <div className=" flex items-center gap-4">
+               <p className="font-semibold">Youtube Channel: <a className='dark:text-gray-100 text-center font-normal' href="https://www.youtube.com/channel/UCU1U_hqYjzEKjG6txI3OHjQ">TuningThoughts</a></p>
+
+               {/* <Link
+                  href="https://www.youtube.com/channel/UCU1U_hqYjzEKjG6txI3OHjQ"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className=''
+               >
+                  <svg
+                     xmlns="http://www.w3.org/2000/svg"
+                     width={24}
+                     height={24}
+                     viewBox="0 0 24 24"
+                     fill="none"
+                     stroke="currentColor"
+                     strokeWidth={2}
+                     strokeLinecap="round"
+                     strokeLinejoin="round"
+                     className="feather feather-youtube dark:fill-gray-100"
+                  >
+                     <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z" />
+                     <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" />
+                  </svg>
+               </Link> */}
+
+            </div>
 
             <PhotoCarousel folderName={"myphoto"} />
 
@@ -112,6 +140,9 @@ const About = () => {
             </br>11. Saudi Arabia<br>
             </br>12. Bahrain<br>
             </br>13. Canada<br>
+            </br>14. Brunei Darussalam<br>
+            </br>15. Nepal<br>
+            </br>16. France<br>
             </br>Still Counting !!!<br></br><br></br>
             </h3>
 
@@ -131,38 +162,6 @@ const About = () => {
                benefits. We also help people who are in need for medical aid and promote
                Natural Medicines.</p>
 
-
-
-
-            <div className=" flex items-center gap-4">
-               <p className="font-semibold">Youtube Channel: <a className='dark:text-gray-100 text-center font-normal' href="https://www.youtube.com/channel/UCU1U_hqYjzEKjG6txI3OHjQ" >TuningThoughts</a></p>
-
-
-
-               {/* <Link
-                  href="https://www.youtube.com/channel/UCU1U_hqYjzEKjG6txI3OHjQ"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className=''
-               >
-                  <svg
-                     xmlns="http://www.w3.org/2000/svg"
-                     width={24}
-                     height={24}
-                     viewBox="0 0 24 24"
-                     fill="none"
-                     stroke="currentColor"
-                     strokeWidth={2}
-                     strokeLinecap="round"
-                     strokeLinejoin="round"
-                     className="feather feather-youtube dark:fill-gray-100"
-                  >
-                     <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z" />
-                     <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" />
-                  </svg>
-               </Link> */}
-
-            </div>
             <h1 className="dark:text-gray-100 font-light mt-6"> <center> SUPREME COURT JUDGMENT</center> </h1>
 
             <p> No Harassment To Alternative Medical Practitioners, Hon'ble Supreme
