@@ -156,6 +156,12 @@ const About = () => {
                                     loading="lazy"
                  className="w-[23rem] h-[19rem] rounded-xl border-2 border-black" src="/logo3.jpg" alt="logo 2" />
       
+               <div className="lg:col-span-4 mt-0 lg:mt-0">
+                 <img 
+                 
+                                    loading="lazy"
+                 className="w-[23rem] h-[19rem] rounded-xl border-2 border-black" src="/logo3.jpg" alt="logo 2" />
+      
                </div>
              
 
