@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 
 const CardLoop = () => {
     const [data, setData] = useState([]);
@@ -25,7 +25,10 @@ const CardLoop = () => {
             <div className="flex justify-around flex-wrap text-center">
                 {data.slice(0, visibleCards).map((item, index) => (
                     <div key={index} className="card w-[350px] ">
-                        <img src={`/events/${item.image}`} alt={`Image ${index + 1}`} className=' w-[350px] h-auto rounded-lg ' />
+                        <img src={`/events/${item.image}`} alt={`Image ${index + 1}`}
+                        
+                                    loading="lazy"
+                        className=' w-[350px] h-auto rounded-lg ' />
                         <div className="content text-gray-800 font-normal dark:text-white">{item.content}</div>
                     </div>
                 ))}

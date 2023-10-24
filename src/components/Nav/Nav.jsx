@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Nav.css';
@@ -26,12 +26,12 @@ function Nav() {
         <header className="max-w-[95rem] mx-auto px-4 sm:px-6 lg:px-8 backdrop-blur-md">
             <div className="logo">
                 
-                <a href="/">
+                <Link href="/">
                   <img src="/logo.png" alt="" />
-                </a>
+                </Link>
 
                 
-                <a href="/" className='dark:text-gray-100 sm:text-xl md:text-2xl lg:text-3xl'>Tuning Thoughts</a>
+                <Link href="/" className='dark:text-gray-100 pt-2 sm:text-xl md:text-2xl lg:text-3xl'>Tuning Thoughts</Link>
 
                 <Link
                     to="https://www.youtube.com/@tuningthoughts"
@@ -39,7 +39,7 @@ function Nav() {
                     target="_blank"
                     class="text-gray-600 transition hover:text-gray-700/75"
                 >
-                    <span class="sr-only">Youtube</span>
+                    <span className="sr-only">Youtube</span>
 
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
