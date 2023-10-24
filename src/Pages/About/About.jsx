@@ -1,6 +1,3 @@
-// import Header from "./Header";
-// import './About.css'
-
 import { Helmet } from "react-helmet"
 import PhotoCarousel from "../../components/Carousel/PhotoCarousel";
 
@@ -23,7 +20,7 @@ const About = () => {
             <h1 className="dark:text-gray-100 font-light text-[2.5rem] md:text-[3.5rem] "><center>About Dr.S.Seshathiri</center></h1>
 
 
-            <p className="text-center"><b>Dr.S.Seshathiri B.A.S.M ( Alt. ) ., B.F.R.P ( U.K ) ., M.D ( Alt.). </b> , is an Researcher and Registered
+            <p className="text-center"><b>Dr.S.Seshathiri B.A.S.M (Alt.)., B.F.R.P ( U.K )., M.D (Alt.) </b> , is an Researcher and Registered
                Alternative Medicine Practitioner. He is also The Founder and Chairperson of
                S.S Alternative medicines and Saantham Trust. He has completed different
                diploma and has got certified from many alternative medicine association and
@@ -32,8 +29,8 @@ const About = () => {
                Alternative System of Medicines and Doctor of Medicine in Alternative
                Medicines.
                <b>He is also an alternative medicines mentor and has taught over 10,000+ students
-               for their Self-Healing Purpose.</b> He also runs a YouTube Channel named “ Tuning
-               Thoughts “ , where he shares his knowledge with thousands of his viewers and subscribers.</p>
+               for their Self-Healing Purpose.</b> He also runs a YouTube Channel named "Tuning
+               Thoughts" , where he shares his knowledge with thousands of his viewers and subscribers.</p>
 
                <div className=" flex items-center gap-4">
                <p className="font-semibold">Youtube Channel: <a className='dark:text-gray-100 text-center font-normal' href="https://www.youtube.com/channel/UCU1U_hqYjzEKjG6txI3OHjQ">TuningThoughts</a></p>
@@ -150,12 +147,6 @@ const About = () => {
 
             <h1 className="dark:text-gray-100 font-light mb-[2px]">Saantham Trust</h1>
             
-               <div className="lg:col-span-4 mt-0 lg:mt-0">
-                 <img 
-                 
-                                    loading="lazy"
-                 className="w-[23rem] h-[19rem] rounded-xl border-2 border-black" src="/logo3.jpg" alt="logo 2" />
-      
                <div className="lg:col-span-4 mt-0 lg:mt-0">
                  <img 
                  
