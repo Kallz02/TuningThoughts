@@ -61,6 +61,29 @@ const VideoCarousel = ({ playlistId, api, title1 }) => {
       <div className="flex overflow-x-auto mx-auto mt-5 video-carousel-container max-w-[95rem]">
         <div className="mt-5 carousel-wrapper">
           <div className="flex video-carousel">
+            
+            {
+              title1 === "Recorded Classes" &&
+              <div className="mx-3 carousel-item w-[320px]">
+                <Link
+                  className="flex flex-col bg-white rounded-lg border shadow-sm transition dark:bg-gray-900 dark:border-gray-700 hover:shadow-lg dark:shadow-slate-700/[.7]"
+                  to="https://wa.me/918838793089?text=Hi,%20Just%20visited%20your%20website!!%20Looking%20for%20an%20appointement"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    className="h-[250px] rounded-t-lg w-[320px]"
+                    src="/p41.jpg"
+                  />
+                  <div className="p-2 md:p-4">
+                    <h3 className="text-sm font-normal text-gray-800 dark:text-white">
+                      3 Months Flower Remedies Course -- Online ❤ 3 மாத மலர் மருத்துவ வகுப்பு -- ஆன்லைன்
+                    </h3>
+                  </div>
+                </Link>
+              </div>
+            }
+
             {videos.map((video, index) => renderCarouselItem(video, index))}
           </div>
         </div>

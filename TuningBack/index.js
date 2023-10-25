@@ -84,39 +84,55 @@ async function scraper(page, postLinks, FOLDER) {
 async function updater(page, postLinks, FOLDER) {
   console.log(DateTime.now().toString());
   await sleep(2000);
+
   process.chdir(FOLDER);
+
   const { stdout } = await exec('cat urls.txt | wc -l');
   let num = parseInt(stdout.trim());
+
   const lines = fs.readFileSync('urls.txt', 'utf-8').split('\n');
   console.log(num);
+
   const file = fs.createWriteStream('urls.txt', { flags: 'a' });
+
   const data = fs.existsSync('data.json')
     ? JSON.parse(fs.readFileSync('data.json', 'utf-8'))
     : [];
+
   for (const url of postLinks.reverse()) {
     if (lines.includes(url)) {
       console.log(`Already got ${url}`);
-    } else {
+    } 
+    else {
       await page.goto(url);
       await sleep(1000);
+
       const image = await page.$('#image-container img');
       const src = await image.evaluate((e) => e.src);
       console.log('Making ' + url);
+
       num++;
+
       await exec(`curl ${src} > image${num}.png`);
       await sleep(1000);
       console.log('Finished this one');
+
       file.write(url + '\n');
       const content = await page.evaluate(() => {
         const element = document.querySelector('#content-text');
         return element ? element.innerText : '';
       });
+
       data.push({ image: `image${num}.png`, content });
     }
   }
+
   file.end();
   fs.writeFileSync('data.json', JSON.stringify(data, null, 2));
 }
+
+
+// create the express server
 const app = express();
 app.use(express.json());
 

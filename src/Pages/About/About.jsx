@@ -1,6 +1,3 @@
-// import Header from "./Header";
-// import './About.css'
-
 import { Helmet } from "react-helmet"
 import PhotoCarousel from "../../components/Carousel/PhotoCarousel";
 
@@ -23,7 +20,7 @@ const About = () => {
             <h1 className="dark:text-gray-100 font-light text-[2.5rem] md:text-[3.5rem] "><center>About Dr.S.Seshathiri</center></h1>
 
 
-            <p className="text-center"><b>Dr.S.Seshathiri B.A.S.M (ALT.)., M.D (ALT.). </b> , is an Researcher and Registered
+            <p className="text-center"><b>Dr.S.Seshathiri B.A.S.M (Alt.)., B.F.R.P ( U.K )., M.D (Alt.) </b> , is an Researcher and Registered
                Alternative Medicine Practitioner. He is also The Founder and Chairperson of
                S.S Alternative medicines and Saantham Trust. He has completed different
                diploma and has got certified from many alternative medicine association and
@@ -31,9 +28,9 @@ const About = () => {
                Practitioner from Bach Centre, England and has also completed Bachelor of
                Alternative System of Medicines and Doctor of Medicine in Alternative
                Medicines.
-               <b>He is also an alternative medicines mentor and has taught over 6000+ students
-               for their Self-Healing Purpose.</b> He also runs a YouTube Channel named “ Tuning
-               Thoughts “ , where he shares his knowledge with thousands of his viewers and subscribers.</p>
+               <b>He is also an alternative medicines mentor and has taught over 10,000+ students
+               for their Self-Healing Purpose.</b> He also runs a YouTube Channel named "Tuning
+               Thoughts" , where he shares his knowledge with thousands of his viewers and subscribers.</p>
 
                <div className=" flex items-center gap-4">
                <p className="font-semibold">Youtube Channel: <a className='dark:text-gray-100 text-center font-normal' href="https://www.youtube.com/channel/UCU1U_hqYjzEKjG6txI3OHjQ">TuningThoughts</a></p>
@@ -143,6 +140,8 @@ const About = () => {
             </br>14. Brunei Darussalam<br>
             </br>15. Nepal<br>
             </br>16. France<br>
+            </br>17. Denmark<br>
+            </br>18. Qatar<br>
             </br>Still Counting !!!<br></br><br></br>
             </h3>
 
